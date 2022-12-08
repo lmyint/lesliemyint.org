@@ -1,8 +1,14 @@
 // Replace this with your own font imports!
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Inter:wght@400;600;700&family=Source+Sans+Pro:wght@400;600&display=swap');
-:root {
+/*@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Inter:wght@400;600;700&family=Source+Sans+Pro:wght@400;600&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+/*:root {
   --font-body: "Source Sans Pro";
   --font-header: "Inter";
+  --font-mono: "Fira Code"
+}*/
+:root {
+  --font-body: "Lora";
+  --font-header: "Lora";
   --font-mono: "Fira Code"
 }
 
@@ -356,6 +362,10 @@ hr {
   flex: 1 1 auto;
 }
 
+.spacer-small {
+  flex: 0.25 0.25 auto;
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -373,7 +383,7 @@ header {
   }
 
   #search-icon {
-    background-color: var(--lightgray);
+/*    background-color: var(--lightgray);*/
     border-radius: 4px;
     height: 2em;
     display: flex;

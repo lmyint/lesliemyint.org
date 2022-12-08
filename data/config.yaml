@@ -10,7 +10,7 @@ enableSPA: true
 enableFooter: true
 enableContextualBacklinks: true
 enableRecentNotes: false
-enableGitHubEdit: true
+enableGitHubEdit: false
 enableMermaid: true
 GitHubLink: https://github.com/lmyint
 search:
@@ -26,3 +26,5 @@ links:
     link: https://twitter.com/lesliemyint
   - link_name: Github
     link: https://github.com/lmyint
+  - link_name: Newsletter
+    link: https://lesliemyint.substack.com/
