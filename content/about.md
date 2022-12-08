@@ -19,7 +19,7 @@ enableToc: false
 
 I am an Assistant Professor of Statistics in the Department of Mathematics, Statistics, and Computer Science (MSCS) at Macalester College. I received my PhD in Biostatistics from the Johns Hopkins Bloomberg School of Public Health where I worked with Kasper Daniel Hansen on statistical methodology for high-throughput biology and with Jeff Leek and Leah Jager on understanding the role of human behavior in data analysis.
 
-  - Download my [CV](/cv.pdf)
+  - Download my [CV](../cv.pdf)
 
 <style>
 .meta {display: none;}
