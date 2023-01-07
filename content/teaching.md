@@ -3,6 +3,8 @@ title: "Teaching"
 enableToc: false
 ---
 
+## Courses
+
 I teach the following courses at Macalester. Some of my courses have course websites which you can navigate to below. For many of my classes I make lecture videos, which can be found on my [YouTube channel](https://www.youtube.com/channel/UCgW3LCQ623sUjprV8EbtVoA).
 
 - STAT 125: Epidemiology
@@ -13,6 +15,12 @@ I teach the following courses at Macalester. Some of my courses have course webs
     - [{S19}](https://lmyint.github.io/253_spring_2019/), [{S21}](https://lmyint.github.io/253_spring_2021/), {S23}
 - STAT 451: Causal Inference
     - [{S20}](https://lmyint.github.io/causal_spring_2020/), [{F20}](https://lmyint.github.io/causal_fall_2020/), {S23}
+
+## Philosophy on teaching and learning
+
+The pillars that ground my teaching and wishes that drive my planning are constantly evolving. [[Teaching and learning|I write about these ideas in my digital garden.]]
+
+- [[A beautiful syllabus]]: A place to capture ideas on inspirational course design and structure
 
 <style>
 .meta {display: none;}

@@ -10,7 +10,7 @@ When did things change? When did I start to notice how much dirt was caked on th
 
 This allegro vivace in caring for students was the only tempo I knew, and I continued to sustain this pace throughout my first few years as a college professor. But since the pandemic, it has beome untenable. There seem to be so many more students whose spirits lie locked behind a wall of diamonds. My efforts, my colleagues' efforts to chip away at that wall, to motivate, to connect, to understand, all seem futile. On top of that, every desperate confession of hopelessness at yet another case of student cheating or apathy is another chord of despair.
 
-On top of that, in order to earn tenure, my college also expects me to produce impactful scholarship, as measured by my peers (just 2 of them!) who will be heavily influenced by the number of journal articles I have published and the reputation of those journals. This viewpoint has been both subtly and overtly reinforced in "mentoring and support" opportunities throughout my time as a junior faculty member, and as such, tenure was always on my mind. Every walk, workout, and drive that I spent thinking about my students, I also spent feeling guilty for not immediately thinking about my research and how to twist my [spiral-shaped passions](https://lmyint.github.io/writing/invisible-giants-myth-of-progress/) into shoeboxes. So I spent those crucial moments of mental recovery continuing to think at miles a minute.
+On top of that, in order to earn tenure, my college also expects me to produce impactful scholarship, as measured by my peers (just 2 of them!) who will be heavily influenced by the number of journal articles I have published and the reputation of those journals. This viewpoint has been both subtly and overtly reinforced in "mentoring and support" opportunities throughout my time as a junior faculty member, and as such, tenure was always on my mind. Every walk, workout, and drive that I spent thinking about my students, I also spent feeling guilty for not immediately thinking about my research and how to twist my [[The quest to find invisible giants-the myth of progress|spiral-shaped passions]] into shoeboxes. So I spent those crucial moments of mental recovery continuing to think at miles a minute.
 
 Enough.
 
@@ -22,4 +22,4 @@ Higher education, let's give this another try. I need to make joy rampant in my 
 
 ---
 
-*I am grateful to Ashley Rothwell-Campagna, [Chris Cordry](chriscordry.com), [Sachin Bhatia](sachinb.substack.com), and [Chris Wong](chr.iswong.com) for their invaluable feedback and support on this piece.*
+*I am grateful to Ashley Rothwell-Campagna, [Chris Cordry](https://www.chriscordry.com), [Sachin Bhatia](https://sachinb.substack.com), and [Chris Wong](https://chr.iswong.com) for their invaluable feedback and support on this piece.*

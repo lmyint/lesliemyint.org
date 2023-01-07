@@ -52,4 +52,4 @@ To see further by standing on the shoulders of giants is to understand enough of
 
 ---
 
-*I am grateful to [Leo Ariel](leoariel.com) and [Tobi Emonts-Holley](Tobisblog.uk) for their wonderful feedback and encouragement on this piece.*
+*I am grateful to [Leo Ariel](https://www.leoariel.com) and [Tobi Emonts-Holley](https://Tobisblog.uk) for their wonderful feedback and encouragement on this piece.*

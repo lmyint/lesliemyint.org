@@ -39,4 +39,4 @@ Educators, the benefits of coaching will take time to fully surface, especially 
 
 ---
 
-*I am grateful to [Tobi Emonts-Holley](Tobisblog.uk), [Chris Cordry](chriscordry.com), [Corey Wilks](https://coreywilkspsyd.com/), [Hesam Panahi](https://hes.am/), [Jeremy Nguyen](https://twitter.com/RunGreatClasses), and [Sairam Sundaresan](https://www.artofsaience.com/) for their wonderful feedback on this piece.*
+*I am grateful to [Tobi Emonts-Holley](https://Tobisblog.uk), [Chris Cordry](https://www.chriscordry.com), [Corey Wilks](https://coreywilkspsyd.com/), [Hesam Panahi](https://hes.am/), [Jeremy Nguyen](https://twitter.com/RunGreatClasses), and [Sairam Sundaresan](https://www.artofsaience.com/) for their wonderful feedback on this piece.*

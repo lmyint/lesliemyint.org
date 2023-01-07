@@ -44,3 +44,7 @@ Let's build information systems that will safeguard human knowledge rather than 
 	- How can I store personal metadata (notes, reactions) on both notes and edges (links) between notes?
 	- What is the quickest way to get up to speed on concept X?
 	- What note should I read next?
+
+## Challenges for publishing applied analyses
+
+Graph publishing for applied analyses: needs more thought. Works well for intro and possibly results. For methods: can in part work by referring to methodology nodes but evaluating a study’s methods requires a holistic view. Think about this more by writing down the problems with Methods sections right now—also the scientific process and collaboration more generally

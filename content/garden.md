@@ -14,7 +14,7 @@ If you want to get an idea of what is constantly on my mind, take a look at my [
 - As a college educator, I think a lot about [[Teaching and learning]] and ways that they can be inspirational, joyful, and effective for both students and teachers.
 - What makes [[A beautiful life]]?
 
-Other essays that I need to make an entry point for:
+Other essays:
 
 - [[The Book of Why]]
 - [[Dungeons and Dragons Web Scraping with rvest and RSelenium]]

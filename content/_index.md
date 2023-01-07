@@ -4,6 +4,7 @@ enableToc: false
 ---
 
 <img src="/portrait.png" style="width: 200px; float: right; padding: 0px 0px 20px 40px">
+
 👋 Hi, I'm Leslie.
 
 I teach statistics at Macalester College with [awesome mathematicians, computer scientists, statisticians, and data scientists](https://www.macalester.edu/mscs/) as colleagues.

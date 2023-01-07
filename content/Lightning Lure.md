@@ -26,4 +26,4 @@ Dungeons and Dragons energizes my thinking in all of the areas I hold dear. In a
 
 ---
 
-*I am so grateful to [Chris Cordry](chriscordry.com), [Leo Ariel](leoariel.com), [Jack Warshaw](jackwarshaw.substack.com), and [Lavinia Iosub](lavinia-iosub.com) for their wonderful feedback on this piece that made ideas more clear and writing more fun.*
+*I am so grateful to [Chris Cordry](https://www.chriscordry.com), [Leo Ariel](https://www.leoariel.com), [Jack Warshaw](https://jackwarshaw.substack.com), and [Lavinia Iosub](https://lavinia-iosub.com) for their wonderful feedback on this piece that made ideas more clear and writing more fun.*

@@ -1,6 +1,6 @@
 baseURL = "https://www.lesliemyint.org/"
 languageCode = "en-us"
-googleAnalytics = ""
+googleAnalytics = "G-JT0D8T1W29"
 relativeURLs = false
 disablePathToLower = true
 ignoreFiles = [
