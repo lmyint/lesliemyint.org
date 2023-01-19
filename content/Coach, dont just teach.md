@@ -1,6 +1,7 @@
 ---
 title: "Coach, don't just teach"
-date: "2022-11-03"
+publishDate: "2022-11-03"
+lastmod: "2022-11-03"
 categories: ["Evergreen"]
 ---
 

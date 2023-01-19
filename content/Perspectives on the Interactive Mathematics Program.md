@@ -1,6 +1,7 @@
 ---
 title: "Perspectives on the Interactive Mathematics Program"
-date: "2014-09-23"
+publishDate: "2014-09-23"
+lastmod: "2014-09-23"
 categories: ["Evergreen"]
 ---
 

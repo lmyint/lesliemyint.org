@@ -1,6 +1,7 @@
 ---
 title: "12 Favorite Problems: The key to classroom community"
-date: "2022-11-25"
+publishDate: "2022-11-25"
+lastmod: "2022-11-25"
 categories: ["Evergreen"]
 ---
 

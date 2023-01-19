@@ -1,6 +1,7 @@
 ---
 title: "Lightning Lure"
-date: "2022-10-12"
+publishDate: "2022-10-12"
+lastmod: "2022-10-12"
 categories: ["Evergreen"]
 ---
 

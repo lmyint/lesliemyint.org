@@ -1,6 +1,7 @@
 ---
 title: "Teaching real math with computers"
-date: "2015-03-20"
+publishDate: "2015-03-20"
+lastmod: "2015-03-20"
 categories: ["Evergreen"]
 ---
 

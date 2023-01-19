@@ -1,6 +1,6 @@
 ---
 title: "Digital Garden"
-date: "2022-12-07"
+publishDate: "2022-12-07"
 lastmod: "2022-12-07"
 enableToc: false
 ---

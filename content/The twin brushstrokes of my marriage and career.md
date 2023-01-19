@@ -1,6 +1,7 @@
 ---
 title: "The twin brushstrokes of my marriage and career"
-date: "2022-10-26"
+publishDate: "2022-10-26"
+lastmod: "2022-10-26"
 categories: ["Evergreen"]
 ---
 

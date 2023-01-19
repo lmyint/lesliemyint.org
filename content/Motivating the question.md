@@ -1,6 +1,7 @@
 ---
 title: "Motivating the question"
-date: "2014-10-05"
+publishDate: "2014-10-05"
+lastmod: "2014-10-05"
 categories: ["Evergreen"]
 ---
 

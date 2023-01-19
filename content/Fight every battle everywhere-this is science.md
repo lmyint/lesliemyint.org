@@ -1,6 +1,7 @@
 ---
 title: "Fight every battle everywhere: this is science"
-date: "2017-08-16"
+publishDate: "2017-08-16"
+lastmod: "2017-08-16"
 categories: ["Evergreen"]
 ---
 

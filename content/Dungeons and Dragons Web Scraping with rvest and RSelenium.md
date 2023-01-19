@@ -1,6 +1,7 @@
 ---
 title: "Dungeons and Dragons Web Scraping with rvest and RSelenium"
-date: "2018-08-10"
+publishDate: "2018-08-10"
+lastmod: "2018-08-10"
 categories: ["R"]
 ---
 

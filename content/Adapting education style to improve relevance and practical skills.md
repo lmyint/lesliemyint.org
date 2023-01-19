@@ -1,6 +1,7 @@
 ---
 title: Adapting education style to improve relevance and practical skills
-date: "2014-12-24"
+publishDate: "2014-12-24"
+lastmod: "2014-12-24"
 categories: ["Evergreen"]
 ---
 

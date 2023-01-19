@@ -1,6 +1,7 @@
 ---
 title: "The Book of Why"
-date: "2018-07-25"
+publishDate: "2018-07-25"
+lastmod: "2018-07-25"
 categories: ["Evergreen", "Books"]
 math: true
 ---

@@ -1,6 +1,6 @@
 ---
 title: "A beautiful syllabus"
-date: "2022-12-09"
+publishDate: "2022-12-09"
 lastmod: "2022-12-09"
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "A different kind of learning objective"
-date: "2022-11-21"
+publishDate: "2022-11-21"
+lastmod: "2022-11-21"
 categories: ["Evergreen"]
 ---
 
