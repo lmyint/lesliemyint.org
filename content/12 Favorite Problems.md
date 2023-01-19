@@ -1,6 +1,6 @@
 ---
 title: "12 Favorite Problems"
-date: "2022-12-06"
+publishDate: "2022-12-06"
 lastmod: "2022-12-06"
 ---
 

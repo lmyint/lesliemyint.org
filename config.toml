@@ -2,7 +2,7 @@ baseURL = "https://www.lesliemyint.org/"
 languageCode = "en-us"
 googleAnalytics = "G-JT0D8T1W29"
 relativeURLs = false
-disablePathToLower = true
+disablePathToLower = false
 ignoreFiles = [
     "/content/templates/*",
     "/content/private/*",

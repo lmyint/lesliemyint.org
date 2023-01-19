@@ -1,5 +1,5 @@
 ---
 title: "{{title}}"
-date: "{{date}}"
+publishDate: "{{date}}"
 lastmod: "{{date}}"
 ---
