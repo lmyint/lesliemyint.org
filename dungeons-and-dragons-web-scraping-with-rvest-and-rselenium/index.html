@@ -1,0 +1,330 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=description content="I love Dungeons and Dragons. I am also a data-loving statistician. At some point, these worlds were bound to collide."><title>Dungeons and Dragons Web Scraping with rvest and RSelenium</title><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" type=image/png href=https://www.lesliemyint.org//icon.png><link href=https://www.lesliemyint.org/styles.df8da630a9042a1d71131efcc10600e7.min.css rel=stylesheet><link href=https://www.lesliemyint.org/styles/_light_syntax.86a48a52faebeaaf42158b72922b1c90.min.css rel=stylesheet id=theme-link><script src=https://www.lesliemyint.org/js/darkmode.d105f1789ea145189e0475684a6932cc.min.js></script>
+<script src=https://www.lesliemyint.org/js/util.5e39932758f9ecaf45fd54506ed61416.min.js></script>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css integrity=sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js integrity=sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx crossorigin=anonymous></script>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js integrity=sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR crossorigin=anonymous></script>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/copy-tex.min.js integrity=sha384-ww/583aHhxWkz5DEVn6OKtNiIaLi2iBRNZXfJRiY1Ai7tnJ9UXpEsyvOITVpTl4A crossorigin=anonymous></script>
+<script src=https://unpkg.com/@floating-ui/core@0.7.3></script>
+<script src=https://unpkg.com/@floating-ui/dom@0.5.4></script>
+<script src=https://www.lesliemyint.org/js/popover.6da9b273c092cc16fc1aa904d71a2163.min.js></script>
+<script src=https://www.lesliemyint.org/js/code-title.b35124ad8db0ba37162b886afb711cbc.min.js></script>
+<script src=https://www.lesliemyint.org/js/clipboard.c20857734e53a3fb733b7443879efa61.min.js></script>
+<script src=https://www.lesliemyint.org/js/callouts.7723cac461d613d118ee8bb8216b9838.min.js></script>
+<script>const SEARCH_ENABLED=!1,LATEX_ENABLED=!0,PRODUCTION=!0,BASE_URL="https://www.lesliemyint.org/",fetchData=Promise.all([fetch("https://www.lesliemyint.org/indices/linkIndex.38ceb555eee007291fe946e271f59bde.min.json").then(e=>e.json()).then(e=>({index:e.index,links:e.links})),fetch("https://www.lesliemyint.org/indices/contentIndex.105201335f5e67b741d89a6709f99072.min.json").then(e=>e.json())]).then(([{index:e,links:t},n])=>({index:e,links:t,content:n})),render=()=>{const e=new URL(BASE_URL),t=e.pathname,n=window.location.pathname,s=t==n;addCopyButtons(),addTitleToCodeBlocks(),addCollapsibleCallouts(),initPopover("https://www.lesliemyint.org",!0);const o=document.getElementById("footer");if(o){const e=document.getElementById("graph-container");if(!e)return requestAnimationFrame(render);e.textContent="";const t=s&&!1;drawGraph("https://www.lesliemyint.org",t,[{"/moc":"#4388cc"}],t?{centerForce:1,depth:-1,enableDrag:!0,enableLegend:!1,enableZoom:!0,fontSize:.5,linkDistance:1,opacityScale:3,repelForce:1,scale:1.4}:{centerForce:1,depth:1,enableDrag:!0,enableLegend:!1,enableZoom:!0,fontSize:.6,linkDistance:1,opacityScale:3,repelForce:2,scale:1.2})}var i=document.getElementsByClassName("mermaid");i.length>0&&import("https://unpkg.com/mermaid@9/dist/mermaid.esm.min.mjs").then(e=>{e.default.init()})},init=(e=document)=>{addCopyButtons(),addTitleToCodeBlocks(),renderMathInElement(e.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1}],macros:{'’':"'"},throwOnError:!1})}</script><script type=module>
+    import { attachSPARouting } from "https:\/\/www.lesliemyint.org\/js\/router.9d4974281069e9ebb189f642ae1e3ca2.min.js"
+    attachSPARouting(init, render)
+  </script></head><script async src="https://www.googletagmanager.com/gtag/js?id=G-JT0D8T1W29"></script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-JT0D8T1W29",{anonymize_ip:!1})}</script><body><div id=search-container><div id=search-space><input autocomplete=off id=search-bar name=search type=text aria-label placeholder="Search for something..."><div id=results-container></div></div></div><script src=https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js integrity="sha256-i3A0NZGkhsKjVMzFxv3ksk0DZh3aXqu0l49Bbh0MdjE=" crossorigin=anonymous defer></script>
+<script defer src=https://www.lesliemyint.org/js/full-text-search.51f0b1753e9b30839d053f8a98cc20d1.min.js></script><div class=singlePage><header><h1 id=page-title><a href=https://www.lesliemyint.org/>Leslie Myint</a></h1><div class=spacer></div><div><a href=/about>About</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=/garden>Garden</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=/teaching>Teaching</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=/talk>Talks</a>&nbsp;&nbsp;&nbsp;&nbsp;</div><div id=search-icon><svg tabindex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search Icon</title><desc id="desc">Icon to open search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"/><circle cx="8" cy="8" r="7"/></g></svg></div><br></header><article><h1>Dungeons and Dragons Web Scraping with rvest and RSelenium</h1><p class=meta>Last tended
+Aug 10, 2018</p><ul class=tags></ul><aside class=mainTOC><details><summary>Table of Contents</summary><nav id=TableOfContents><ol><li><a href=#general-structure-of-rvest-code>General structure of <code>rvest</code> code</a></li><li><a href=#selectorgadget>SelectorGadget</a></li><li><a href=#extract-urls>Extract URLs</a></li></ol><ol><li><a href=#what-did-not-work>What did not work</a></li><li><a href=#what-did-work>What did work</a><ol><li><a href=#step-2a-start-automated-browsing-with-rsdriver>Step 2a: Start automated browsing with `rsDriver</a></li><li><a href=#step-2b-browser-navigation-and-interaction>Step 2b: Browser navigation and interaction</a></li><li><a href=#step-2c-extract-page-source>Step 2c: Extract page source</a></li></ol></li></ol><ol><li><a href=#principle-1-use-selectorgadget-and-view-the-pages-source>Principle 1: Use SelectorGadget AND view the page&rsquo;s source</a></li><li><a href=#principle-2-print-often>Principle 2: Print often</a></li><li><a href=#principle-3-you-will-need-loops>Principle 3: You will need loops</a></li></ol></nav></details></aside><p>I love Dungeons and Dragons. I am also a data-loving statistician. At some point, these worlds were bound to collide.</p><p>For those unfamiliar with Dungeons and Dragons (DnD), it is a role-playing game that is backed by an extraodinary amount of data. The overall gist is that players create characters that band together with other characters to travel the world and adventure. Essentially, it&rsquo;s collective storytelling aided by dice as vehicles of chance and uncertainty. Where does data come in? Through the world-building content that is released by the official creators and by players. This content helps players build characters that have a range of characteristics and abilities governed by their past and occupation. This content similarly helps shape the monsters and enemies that the characters may face.</p><p>There is a wonderful digital resource for DnD content called
+<a href=https://www.dndbeyond.com/ rel=noopener>DnD Beyond</a> that contains information on characters, monsters, and treasures. (No API yet, but it is apparently
+<a href="https://twitter.com/dndbeyond/status/909834529736740864?lang=en" rel=noopener>in the works</a>.) For a while, I&rsquo;ve been interested in playing around with data on monster statistics, and I finally got around to it this week! I had been reluctant to start because I did not have a clear idea of how to scrape pages that required login via redirect to an external authentication service (here, Twitch). I&rsquo;ll go over the specific hurdles and solutions in this post. I&rsquo;ll also give a general tutorial for scraping with <code>rvest</code>.</p><p>All of the code for this post is available at
+<a href=https://github.com/lmyint/dnd_analysis rel=noopener>https://github.com/lmyint/dnd_analysis</a>.</p><a href=#structure-of-the-scraping-task><h1 id=structure-of-the-scraping-task><span class=hanchor arialabel=Anchor># </span>Structure of the scraping task</h1></a><p>If you go to
+<a href=https://www.dndbeyond.com/monsters rel=noopener>https://www.dndbeyond.com/monsters</a>, you will see the first of several tens of pages of monster listings. You will also see that each monster name is a link to an individual monster page that contains more extensive details about that monster&rsquo;s statistics, abilities, and lore. An example that is free to view is the
+<a href=https://www.dndbeyond.com/monsters/adult-green-dragon rel=noopener>Adult Green Dragon</a>. Other monsters that are not part of the Basic Rules set can only be viewed if you are signed in and have purchased the digital book in which that monster is contained.</p><p>The first part of the scraping task is to the scrape the several pages of tables starting at
+<a href=https://www.dndbeyond.com/monsters rel=noopener>https://www.dndbeyond.com/monsters</a> in order to get the links to individual monster pages.</p><p>The second part of the scraping task is to scrape the individual monster pages, such as the
+<a href=https://www.dndbeyond.com/monsters/adult-green-dragon rel=noopener>Adult Green Dragon</a>.</p><p>Throughout, I use the following packages:</p><ul><li><a href=https://cran.r-project.org/web/packages/rvest/index.html rel=noopener>rvest</a> for page scraping</li><li><a href=https://cran.r-project.org/web/packages/stringr/index.html rel=noopener>stringr</a> for working with strings</li><li><a href=https://cran.r-project.org/web/packages/tibble/index.html rel=noopener>tibble</a> for the flexibility over data frames to allow list-columns</li><li><a href=https://github.com/ropensci/RSelenium rel=noopener>RSelenium</a> for browser navigation via R. This package was on CRAN but removed in May 2018. I used the development version on GitHub, but the package maintainer is
+<a href=https://github.com/ropensci/RSelenium/issues/172 rel=noopener>currently working to fix this</a>.</li></ul><a href=#step-1-scrape-tables-to-get-individual-monster-page-urls><h1 id=step-1-scrape-tables-to-get-individual-monster-page-urls><span class=hanchor arialabel=Anchor># </span>Step 1: Scrape tables to get individual monster page URLs</h1></a><p>By visiting a few different pages of monster results, we can see that the URLs for the page results have a consistent format: <code>https://www.dndbeyond.com/monsters?page=NUM</code> where <code>NUM</code> ranges from 1 to the last page. We can obtain the last page number programatically with the following:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-r data-lang=r><span class=line><span class=cl><span class=n>page</span> <span class=o>&lt;-</span> <span class=nf>read_html</span><span class=p>(</span><span class=s>&#34;https://www.dndbeyond.com/monsters&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=n>num_pages</span> <span class=o>&lt;-</span> <span class=n>page</span> <span class=o>%&gt;%</span>
+</span></span><span class=line><span class=cl>	<span class=nf>html_nodes</span><span class=p>(</span><span class=s>&#34;.b-pagination-item&#34;</span><span class=p>)</span> <span class=o>%&gt;%</span>
+</span></span><span class=line><span class=cl>	<span class=nf>html_text</span><span class=p>()</span> <span class=o>%&gt;%</span>
+</span></span><span class=line><span class=cl>	<span class=nf>as.integer</span><span class=p>()</span> <span class=o>%&gt;%</span>
+</span></span><span class=line><span class=cl>	<span class=nf>max</span><span class=p>(</span><span class=n>na.rm</span> <span class=o>=</span> <span class=kc>TRUE</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div><p>Let&rsquo;s explore the anatomy of this code to better understand how to work with <code>rvest</code>.</p><a href=#general-structure-of-rvest-code><h2 id=general-structure-of-rvest-code><span class=hanchor arialabel=Anchor># </span>General structure of <code>rvest</code> code</h2></a><p>The small example above shows the power of <code>rvest</code>. In many cases, the code to scrape content on a webpage really does boil down to something as short as:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>url %&gt;% read_html() %&gt;% html_nodes(&#34;CSS or XPATH selector&#34;) %&gt;% html_text() OR html_attr()
+</span></span></code></pre></td></tr></table></div></div><ul><li><p>We start with a URL string that is passed to the <code>read_html</code> function. This creats an XML document object which is a tree representation of the content on a webpage. Why a tree? This requires some familiarity with HTML, but essentially text content is nested within enclosing formatting tags to make up a webpage. The following diagram from a
+<a href=https://www.w3schools.com/js/js_htmldom_navigation.asp rel=noopener>W3Schools tutorial</a> illustrates this.
+<img src=https://www.w3schools.com/js/pic_htmltree.gif width=auto alt></p></li><li><p>The <code>html_nodes</code> function takes a string specifying the HTML tags that you desire to be selected. The selector string can be a CSS or XPATH selector. I only know about CSS selectors, and that has sufficed for all of my web scraping to date. This function returns a list of nodes that have been selected from the HTML tree. For example, selecting the <code>&lt;body></code> tag is like grabbing the trunk of the HTML tree, and selecting paragraph <code>&lt;p></code> tags is like grabbing only the thinner branches. This list of nodes is still a list of XML objects.</p></li><li><p>Usually what we want in scraping is the text that we see on the webpage that is contained within the specific sections extracted with <code>html_nodes</code>. We can get this text with <code>html_text</code>. Often we will also want attributes of the text on a webpage. For example, we may see text that is actually a link, and we want the URL for that link. In this case <code>html_text</code> would not give us what we want because it would give us the link text. However, <code>html_attr</code> will allow us to extract the URL. A specific example of this in just a second!</p></li></ul><a href=#selectorgadget><h2 id=selectorgadget><span class=hanchor arialabel=Anchor># </span>SelectorGadget</h2></a><p>Back to the code example above:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-r data-lang=r><span class=line><span class=cl><span class=n>page</span> <span class=o>&lt;-</span> <span class=nf>read_html</span><span class=p>(</span><span class=s>&#34;https://www.dndbeyond.com/monsters&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=n>num_pages</span> <span class=o>&lt;-</span> <span class=n>page</span> <span class=o>%&gt;%</span>
+</span></span><span class=line><span class=cl>	<span class=nf>html_nodes</span><span class=p>(</span><span class=s>&#34;.b-pagination-item&#34;</span><span class=p>)</span> <span class=o>%&gt;%</span>
+</span></span><span class=line><span class=cl>	<span class=nf>html_text</span><span class=p>()</span> <span class=o>%&gt;%</span>
+</span></span><span class=line><span class=cl>	<span class=nf>as.integer</span><span class=p>()</span> <span class=o>%&gt;%</span>
+</span></span><span class=line><span class=cl>	<span class=nf>max</span><span class=p>(</span><span class=n>na.rm</span> <span class=o>=</span> <span class=kc>TRUE</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div><p>The most difficult part of this part of code is figuring out the selector to use in <code>html_nodes</code>. Luckily, the <code>rvest</code> package page on CRAN has a link to a vignette on a tool called
+<a href=https://cran.r-project.org/web/packages/rvest/vignettes/selectorgadget.html rel=noopener>SelectorGadget</a>. I love this tool for its playful homage to
+<a href="https://www.youtube.com/watch?v=e-JHfXVlkik" rel=noopener>childhood memories</a>, and it also greatly helps in determining the CSS selectors needed to select desired parts of a webpage. Once you have dragged the tool link to the bookmark bar, you can click the bookmark while viewing any page to get a hover tool that highlights page elements as you mouse over them. Clicking on an element on the page displays the text for the CSS selector in the tool panel.</p><p>Using the SelectorGadget tool, we can determine that the page number buttons on the
+<a href=https://www.dndbeyond.com/monsters rel=noopener>main monster page</a> all have the class <code>b-pagination-item</code>. The CSS selector for a class always starts with a period followed by the class name. The last page was the maximum of these numbers. (We need to remove <code>NA</code>&rsquo;s created by integer coercion of the &ldquo;Next&rdquo; button.)</p><a href=#extract-urls><h2 id=extract-urls><span class=hanchor arialabel=Anchor># </span>Extract URLs</h2></a><p>Now that we know how many pages (<code>num_pages</code>) to loop through, let&rsquo;s write a function that will extract the URLs for the individual monster pages that are present on a single page of results.</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-r data-lang=r><span class=line><span class=cl><span class=n>get_monster_links</span> <span class=o>&lt;-</span> <span class=nf>function</span><span class=p>(</span><span class=n>url</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>	<span class=n>page</span> <span class=o>&lt;-</span> <span class=nf>read_html</span><span class=p>(</span><span class=n>url</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>	<span class=n>rel_links</span> <span class=o>&lt;-</span> <span class=n>page</span> <span class=o>%&gt;%</span>
+</span></span><span class=line><span class=cl>		<span class=nf>html_nodes</span><span class=p>(</span><span class=s>&#34;.link&#34;</span><span class=p>)</span> <span class=o>%&gt;%</span>
+</span></span><span class=line><span class=cl>		<span class=nf>html_attr</span><span class=p>(</span><span class=n>name</span> <span class=o>=</span> <span class=s>&#34;href&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>	<span class=n>keep</span> <span class=o>&lt;-</span> <span class=nf>str_detect</span><span class=p>(</span><span class=n>rel_links</span><span class=p>,</span> <span class=s>&#34;/monsters/&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>	<span class=n>rel_links</span> <span class=o>&lt;-</span> <span class=n>rel_links[keep]</span>
+</span></span><span class=line><span class=cl>	<span class=n>abs_links</span> <span class=o>&lt;-</span> <span class=nf>paste0</span><span class=p>(</span><span class=s>&#34;https://www.dndbeyond.com&#34;</span><span class=p>,</span> <span class=n>rel_links</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>	<span class=n>abs_links</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></td></tr></table></div></div><p>The <code>get_monster_links</code> function takes as input a URL for a page of results (like
+<a href="https://www.dndbeyond.com/monsters?page=2%29" rel=noopener>https://www.dndbeyond.com/monsters?page=2)</a>. Let&rsquo;s work through the function body:</p><ul><li>We first read the HTML source of a page with <code>read_html</code>.</li><li>We can then use a combination of SelectorGadget with the &ldquo;View page source&rdquo; functionality of your browser to select the links on the page. Here we find that they belong to class <code>link</code>.</li><li>We use the <code>html_attr</code> function here to extract the link path rather than the link text. The <code>name = "href"</code> specifies that we want the path attribute. (Anatomy of an HTML link: <code>&lt;a href="https://www.something.com">Link text seen on page&lt;/a></code>).</li><li>The remainder of the function subsets the extracted links to only those that pertain to the monster pages (removing links like the home page). Printing the output indicates that these links are only relative links, so we append the base URL to create absolute links (<code>abs_links</code>).</li></ul><p>Finally, we can loop through all pages of results to get the hundreds of pages for the individual monsters:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-r data-lang=r><span class=line><span class=cl><span class=c1>## Loop through all pages</span>
+</span></span><span class=line><span class=cl><span class=n>all_monster_urls</span> <span class=o>&lt;-</span> <span class=nf>lapply</span><span class=p>(</span><span class=nf>seq_len</span><span class=p>(</span><span class=n>num_pages</span><span class=p>),</span> <span class=nf>function</span><span class=p>(</span><span class=n>i</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>	<span class=n>url</span> <span class=o>&lt;-</span> <span class=nf>paste0</span><span class=p>(</span><span class=s>&#34;https://www.dndbeyond.com/monsters?page=&#34;</span><span class=p>,</span> <span class=n>i</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>	<span class=nf>get_monster_links</span><span class=p>(</span><span class=n>url</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=p>})</span> <span class=o>%&gt;%</span> <span class=n>unlist</span>
+</span></span></code></pre></td></tr></table></div></div><a href=#step-2-use-rselenium-to-access-pages-behind-login><h1 id=step-2-use-rselenium-to-access-pages-behind-login><span class=hanchor arialabel=Anchor># </span>Step 2: Use <code>RSelenium</code> to access pages behind login</h1></a><p>In Step 1, we looped through pages of tables to get the URLs for pages that contain detailed information on individual monsters. Great! We can visit each of these pages and just do some more <code>rvest</code> work to scrape the details! Well&mldr; not immediately. Most of these monster pages can only be seen if you have paid for the corresponding digital books and are logged in. DnD Beyond uses
+<a href=https://www.twitch.tv/ rel=noopener>Twitch</a> for authentication which involves a redirect. This redirect made it way harder for me to figure out what to do. It was like I had been thrown into the magical, mysterious, and deceptive realm of the
+<a href=http://forgottenrealms.wikia.com/wiki/Feywild rel=noopener>Feywild</a> where I frantically invoked Google magicks to find many dashed glimmers of hope but luckily a solution in the end.</p><a href=#what-did-not-work><h2 id=what-did-not-work><span class=hanchor arialabel=Anchor># </span>What did not work</h2></a><p>It&rsquo;s helpful for me to record what things I tried and failed so I can remember my thought process. Hopefully, it saves you wasted effort if you&rsquo;re ever in a similar situation.</p><ul><li>Using <code>rvest</code>&rsquo;s page navigation abilities did not work. I tried the following code:</li></ul><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-r data-lang=r><span class=line><span class=cl><span class=n>url</span> <span class=o>&lt;-</span> <span class=s>&#34;https://www.dndbeyond.com/login&#34;</span>
+</span></span><span class=line><span class=cl><span class=n>session</span> <span class=o>&lt;-</span> <span class=nf>html_session</span><span class=p>(</span><span class=n>url</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=n>url</span> <span class=o>&lt;-</span> <span class=nf>follow_link</span><span class=p>(</span><span class=n>session</span><span class=p>,</span> <span class=s>&#34;Login&#34;</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div><p>But I ran into an error:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>Error in curl::curl_fetch_memory(url, handle = handle) : 
+</span></span><span class=line><span class=cl>  Could not resolve host: NA
+</span></span></code></pre></td></tr></table></div></div><ul><li>Using <code>rvest</code>&rsquo;s basic authentication abilities did not work. I found
+<a href=https://github.com/rstudio/webinars/blob/master/32-Web-Scraping/navigation-and-authentication.md rel=noopener>this tutorial</a> on how to send a username and password to a form with <code>rvest</code>. I tried hardcoding the extremely long URL that takes you to a Twitch authentication page, sending my username and password as described in the tutorial, and following [this Stack Overflow suggestion] to create a fake login button since the authentication page had an unnamed, unlabeled &ldquo;Submit&rdquo; input that did not seem to conform to <code>rvest</code>&rsquo;s capabilities. I got a 403 error.</li></ul><a href=#what-did-work><h2 id=what-did-work><span class=hanchor arialabel=Anchor># </span>What did work</h2></a><p>Only when I stumbled upon this
+<a href=https://stackoverflow.com/questions/40198182/403-error-when-using-rvest-to-log-into-website-for-scraping rel=noopener>Stack Overflow post</a> did I learn about the <code>RSelenium</code> package.
+<a href=https://www.seleniumhq.org/ rel=noopener>Selenium</a> is a tool for automating web browsers, and the <code>RSelenium</code> package is the R interface for it.</p><p>I am really grateful to the posters on that Stack Overflow question and
+<a href=https://abdallaabdi.com/2016/02/13/navigating-scraping-job-sites-rvest-rselenium/ rel=noopener>this blog post</a> for getting me started with <code>RSelenium</code>. The only problem is that the <code>startServer</code> function used in both posts is now defunct. When calling <code>startServer</code>, the message text informs you of the <code>rsDriver</code> function.</p><a href=#step-2a-start-automated-browsing-with-rsdriver><h3 id=step-2a-start-automated-browsing-with-rsdriver><span class=hanchor arialabel=Anchor># </span>Step 2a: Start automated browsing with `rsDriver</h3></a><p>The amazing feature of the <code>rsDriver</code> function is that you do not need to worry about downloading and installing other sofware like Docker or phantomjs. This function works right out of the box! To start the automated browsing, use the following:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-r data-lang=r><span class=line><span class=cl><span class=n>rd</span> <span class=o>&lt;-</span> <span class=nf>rsDriver</span><span class=p>(</span><span class=n>browser</span> <span class=o>=</span> <span class=s>&#34;chrome&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=n>rem_dr</span> <span class=o>&lt;-</span> <span class=n>rd<a class="internal-link broken">span><span class=s>&</a></span>
+</span></span></code></pre></td></tr></table></div></div><p>When you first run <code>rsDriver</code>, status messages will indicate that required files are being downloaded. After that you will see the status text &ldquo;Connecting to remote server&rdquo; and a Chrome browser window will pop open. The browser window will have a message beneath the search bar saying &ldquo;Chrome is being controlled by automated test software.&rdquo; This code comes straight from the example in the <code>rsDriver</code> help page.</p><a href=#step-2b-browser-navigation-and-interaction><h3 id=step-2b-browser-navigation-and-interaction><span class=hanchor arialabel=Anchor># </span>Step 2b: Browser navigation and interaction</h3></a><p>The <code>rem_dr</code> object is what we will use to navigate and interact with the browser. This navigation and interaction is achieved by accessing and calling functions that are part of the <code>rem_dr</code> object. We can navigate to a page using the <code>$navigate()</code> function. We can select parts of the webpage with the <code>$findElement()</code> function. Once these selections are made, we can interact with the selections by</p><ul><li>Sending text to those selections with <code>$sendKeysToElement()</code></li><li>Sending key presses to those selections with <code>$sendKeysToElement()</code></li><li>Sending clicks to those selections with <code>$clickElement()</code></li></ul><p>All of these are detailed in the
+<a href=http://rpubs.com/johndharrison/RSelenium-Basics rel=noopener>RSelenium Basics vignette</a>, and further examples are in the
+<a href=https://stackoverflow.com/questions/40198182/403-error-when-using-rvest-to-log-into-website-for-scraping rel=noopener>Stack Overflow</a> and
+<a href=https://abdallaabdi.com/2016/02/13/navigating-scraping-job-sites-rvest-rselenium/ rel=noopener>blog post</a> I mentioned above.</p><p>The code below shows this functionality in action:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-r data-lang=r><span class=line><span class=cl><span class=n>url</span> <span class=o>&lt;-</span> <span class=s>&#34;https://www.dndbeyond.com/login&#34;</span>
+</span></span><span class=line><span class=cl><span class=n>rem_dr</span><span class=o>$</span><span class=nf>navigate</span><span class=p>(</span><span class=n>url</span><span class=p>)</span> <span class=c1># Navigate to login page</span>
+</span></span><span class=line><span class=cl><span class=n>rem_dr</span><span class=o>$</span><span class=nf>findElement</span><span class=p>(</span><span class=n>using</span> <span class=o>=</span> <span class=s>&#34;css selector&#34;</span><span class=p>,</span> <span class=n>value</span> <span class=o>=</span> <span class=s>&#34;.twitch-button&#34;</span><span class=p>)</span><span class=o>$</span><span class=nf>clickElement</span><span class=p>()</span> <span class=c1># Click the &#34;Login with Twitch&#34; button</span>
+</span></span><span class=line><span class=cl><span class=c1>## Manually enter username and password here</span>
+</span></span><span class=line><span class=cl><span class=n>rem_dr</span><span class=o>$</span><span class=nf>findElement</span><span class=p>(</span><span class=n>using</span> <span class=o>=</span> <span class=s>&#34;css selector&#34;</span><span class=p>,</span> <span class=n>value</span> <span class=o>=</span> <span class=s>&#34;.js-authorize-text&#34;</span><span class=p>)</span><span class=o>$</span><span class=nf>clickElement</span><span class=p>()</span> <span class=c1># Click the &#34;Authorize&#34; button to continue logging in</span>
+</span></span></code></pre></td></tr></table></div></div><p>Note: Once the Chrome window opens, you can finish the login process programatically as above or manually interface with the browser window as you would normally. This can be safer if you don&rsquo;t want to have a file with your username and password saved anywhere.</p><a href=#step-2c-extract-page-source><h3 id=step-2c-extract-page-source><span class=hanchor arialabel=Anchor># </span>Step 2c: Extract page source</h3></a><p>Now that we have programatic control over the browser, how do we interface with <code>rvest</code>? Once we navigate to a page with <code>$navigate()</code>, we will need to extract the page&rsquo;s HTML source code to supply to <code>rvest::read_html</code>. We can extract the source with <code>$getPageSource()</code>:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-r data-lang=r><span class=line><span class=cl><span class=n>rem_dr</span><span class=o>$</span><span class=nf>navigate</span><span class=p>(</span><span class=n>url</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=n>page</span> <span class=o>&lt;-</span> <span class=nf>read_html</span><span class=p>(</span><span class=n>rem_dr</span><span class=o>$</span><span class=nf>getPageSource</span><span class=p>()</span><span class=n>[[1]]</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div><p>The subset <code>[[1]]</code> is needed after calling <code>rem_dr$getPageSource()</code> because <code>$getPageSource()</code> returns a list of length 1. The HTML source that is read in can be directly input to <code>rvest::read_html</code>.</p><p>Excellent! Now all we need is a function that scrapes the details of a monster page and loop! In the following, we put everything together in a loop that iterates over the vector of URLs (<code>all_monster_urls</code>) generated in Step 1.</p><p>Within the loop we call the custom <code>scrape_monster_page</code> function to be discussed below in Step 3. We also include a check for purchased content. If you try to access a monster page that is not part of books that you have paid for, you will be redirected to a new page. We perform this check with the <code>$getCurrentUrl()</code> function, filling in a missing value for the monster information if we do not have access. The <code>Sys.sleep</code> at the end can be useful to avoid overloading your computer or if rate limits are a problem.</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-r data-lang=r><span class=line><span class=cl><span class=n>monster_info</span> <span class=o>&lt;-</span> <span class=nf>vector</span><span class=p>(</span><span class=s>&#34;list&#34;</span><span class=p>,</span> <span class=nf>length</span><span class=p>(</span><span class=n>all_monster_urls</span><span class=p>))</span>
+</span></span><span class=line><span class=cl><span class=nf>for </span><span class=p>(</span><span class=n>i</span> <span class=n>in</span> <span class=nf>seq_along</span><span class=p>(</span><span class=n>all_monster_urls</span><span class=p>))</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>	<span class=n>url</span> <span class=o>&lt;-</span> <span class=n>all_monster_urls[i]</span>
+</span></span><span class=line><span class=cl>	<span class=n>rem_dr</span><span class=o>$</span><span class=nf>navigate</span><span class=p>(</span><span class=n>url</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>	<span class=n>page</span> <span class=o>&lt;-</span> <span class=nf>read_html</span><span class=p>(</span><span class=n>rem_dr</span><span class=o>$</span><span class=nf>getPageSource</span><span class=p>()</span><span class=n>[[1]]</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>	<span class=c1>## If content has not been unlocked, the page will redirect</span>
+</span></span><span class=line><span class=cl>	<span class=n>curr_url</span> <span class=o>&lt;-</span> <span class=n>rem_dr</span><span class=o>$</span><span class=nf>getCurrentUrl</span><span class=p>()</span><span class=n>[[1]]</span>
+</span></span><span class=line><span class=cl>	<span class=nf>if </span><span class=p>(</span><span class=n>curr_url</span> <span class=o>==</span> <span class=n>url</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>		<span class=n>monster_info[[i]]</span> <span class=o>&lt;-</span> <span class=nf>scrape_monster_page</span><span class=p>(</span><span class=n>page</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>	<span class=p>}</span> <span class=n>else</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>		<span class=n>monster_info[[i]]</span> <span class=o>&lt;-</span> <span class=kc>NA</span>
+</span></span><span class=line><span class=cl>	<span class=p>}</span>
+</span></span><span class=line><span class=cl>	<span class=nf>Sys.sleep</span><span class=p>(</span><span class=m>2</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>	<span class=nf>cat</span><span class=p>(</span><span class=n>i</span><span class=p>,</span> <span class=s>&#34; &#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></td></tr></table></div></div><a href=#step-3-write-a-function-to-scrape-an-individual-page><h1 id=step-3-write-a-function-to-scrape-an-individual-page><span class=hanchor arialabel=Anchor># </span>Step 3: Write a function to scrape an individual page</h1></a><p>The last step in our scraping endeavor is to write the <code>scrape_monster_page</code> function to scrape data from an individual monster page. You can view the full function
+<a href=https://github.com/lmyint/dnd_analysis/blob/master/scrape_monster_stats.R rel=noopener>on GitHub</a>. I won&rsquo;t go through every aspect of this function here, but I&rsquo;ll focus on some principles that appear in this function that I&rsquo;ve found to be useful in general when working with <code>rvest</code>.</p><a href=#principle-1-use-selectorgadget-and-view-the-pages-source><h2 id=principle-1-use-selectorgadget-and-view-the-pages-source><span class=hanchor arialabel=Anchor># </span>Principle 1: Use SelectorGadget AND view the page&rsquo;s source</h2></a><p>As useful as SelectorGadget is for finding the correct CSS selector, I never use it alone. I always open up the page&rsquo;s source code and do a lot of Ctrl-F to quickly find specific parts of a page. For example, when I was using SelectorGadget to get the CSS selectors for the Armor Class, Hit Points, and Speed attributes, I saw the following:</p><p><img src=https://www.lesliemyint.org//post/2018-08-10-dnd-scraping_files/attr_block.png width=auto alt></p><p>I wanted to know if there were further subdvisions of the areas that the <code>.mon-stat-block__attribute</code> selector had highlighted. To do this, I searched the source code for &ldquo;Armor Class&rdquo; and found the following:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>div</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;mon-stat-block__attribute&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>span</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;mon-stat-block__attribute-label&#34;</span><span class=p>&gt;</span>Armor Class<span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>span</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;mon-stat-block__attribute-value&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=p>&lt;</span><span class=nt>span</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;mon-stat-block__attribute-data-value&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>            19
+</span></span><span class=line><span class=cl>        <span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>        
+</span></span><span class=line><span class=cl>            <span class=p>&lt;</span><span class=nt>span</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;mon-stat-block__attribute-data-extra&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>                (Natural Armor)  
+</span></span><span class=line><span class=cl>            <span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;</span> 
+</span></span><span class=line><span class=cl>                 
+</span></span><span class=line><span class=cl>    <span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl><span class=p>&lt;/</span><span class=nt>div</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>div</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;mon-stat-block__attribute&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>span</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;mon-stat-block__attribute-label&#34;</span><span class=p>&gt;</span>Hit Points<span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>span</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;mon-stat-block__attribute-data&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=p>&lt;</span><span class=nt>span</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;mon-stat-block__attribute-data-value&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>            207
+</span></span><span class=line><span class=cl>        <span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=p>&lt;</span><span class=nt>span</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;mon-stat-block__attribute-data-extra&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>            (18d12 + 90)
+</span></span><span class=line><span class=cl>        <span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;</span>      
+</span></span><span class=line><span class=cl>    <span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl><span class=p>&lt;/</span><span class=nt>div</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>div</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;mon-stat-block__attribute&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>span</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;mon-stat-block__attribute-label&#34;</span><span class=p>&gt;</span>Speed<span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>span</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;mon-stat-block__attribute-data&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=p>&lt;</span><span class=nt>span</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;mon-stat-block__attribute-data-value&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>            40 ft., fly 80 ft., swim 40 ft.
+</span></span><span class=line><span class=cl>             
+</span></span><span class=line><span class=cl>        <span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl><span class=p>&lt;/</span><span class=nt>div</span><span class=p>&gt;</span>
+</span></span></code></pre></td></tr></table></div></div><p>Looking at the raw source code allowed me to see that each line was subdivided by spans with classes <code>mon-stat-block__attribute-label</code>, <code>mon-stat-block__attribute-data-value</code>, and sometimes <code>mon-stat-block__attribute-data-extra</code>.</p><p>With SelectorGadget, you can actually type a CSS selector into the text box to highlight the selected parts of the page. I did this with the <code>mon-stat-block__attribute-label</code> class to verify that there should be 3 regions highlighted.</p><p><img src=https://www.lesliemyint.org//post/2018-08-10-dnd-scraping_files/attr_label.png width=auto alt></p><p>Because SelectorGadget requires hovering your mouse over potentially small regions, it is best to verify your selection by looking at the source code.</p><a href=#principle-2-print-often><h2 id=principle-2-print-often><span class=hanchor arialabel=Anchor># </span>Principle 2: Print often</h2></a><p>Continuing from the above example of desiring the Armor Class, Hit Points, and Speed attributes, I was curious what I would obtain if I simply selected the whole line for each attribute (as opposed to the three subdivisions). The following is what I saw when I printed this to the screen:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>&gt; page %&gt;% html_nodes(&#34;.mon-stat-block__attribute&#34;) %&gt;% html_text()
+</span></span><span class=line><span class=cl>[1] &#34;\n            Armor Class\n            \n                \n                    19\n                \n                \n                    \n                        (Natural Armor)  \n                     \n                         \n            \n        &#34;
+</span></span><span class=line><span class=cl>[2] &#34;\n            Hit Points\n            \n                \n                    207\n                \n                \n                    (18d12 + 90)\n                      \n            \n        &#34;                                                         
+</span></span><span class=line><span class=cl>[3] &#34;\n            Speed\n            \n                \n                    40 ft., fly 80 ft., swim 40 ft.\n                     \n                \n            \n        &#34;
+</span></span></code></pre></td></tr></table></div></div><p>A mess! A length-3 character vector containing the information I wanted but not in a very tidy format. Because I want to visualize and explore this data later, I want to do a little tidying up front in the scraping process.</p><p>What if I just access the three subdivisions separately and <code>rbind</code> them together? This is not a good idea because of missing elements as shown below:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>&gt; page %&gt;% html_nodes(&#34;.mon-stat-block__attribute-label&#34;) %&gt;% html_text()
+</span></span><span class=line><span class=cl>[1] &#34;Armor Class&#34; &#34;Hit Points&#34;  &#34;Speed&#34;      
+</span></span><span class=line><span class=cl>&gt; page %&gt;% html_nodes(&#34;.mon-stat-block__attribute-data-value&#34;) %&gt;% html_text() %&gt;% trimws()
+</span></span><span class=line><span class=cl>[1] &#34;19&#34;                              &#34;207&#34;                            
+</span></span><span class=line><span class=cl>[3] &#34;40 ft., fly 80 ft., swim 40 ft.&#34;
+</span></span><span class=line><span class=cl>&gt; page %&gt;% html_nodes(&#34;.mon-stat-block__attribute-data-extra&#34;) %&gt;% html_text() %&gt;% trimws()
+</span></span><span class=line><span class=cl>[1] &#34;(Natural Armor)&#34; &#34;(18d12 + 90)&#34;
+</span></span></code></pre></td></tr></table></div></div><p>For <code>attribute-label</code>, I get a length-3 vector. For <code>attribute-data-value</code>, I get a length-3 vector. For <code>attribute-data-value</code>, I only get a length-2 vector! Through visual inspection, I know that the third line &ldquo;Speed&rdquo; is missing the span with the <code>data-extra</code> class, but I don&rsquo;t want to rely on visual inspection for these hundreds of monsters! <strong>Printing these results warned me directly that this could happen!</strong> Awareness of these missing items motivates the third principle.</p><a href=#principle-3-you-will-need-loops><h2 id=principle-3-you-will-need-loops><span class=hanchor arialabel=Anchor># </span>Principle 3: You will need loops</h2></a><p>For the Armor Class, Hit Points, and Speed attributes, I wanted to end up with a data frame that looks like this:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>&gt; attrs
+</span></span><span class=line><span class=cl># A tibble: 3 x 3
+</span></span><span class=line><span class=cl>  label       value                           extra          
+</span></span><span class=line><span class=cl>  &lt;chr&gt;       &lt;chr&gt;                           &lt;chr&gt;          
+</span></span><span class=line><span class=cl>1 Armor Class 19                              (Natural Armor)
+</span></span><span class=line><span class=cl>2 Hit Points  207                             (18d12 + 90)   
+</span></span><span class=line><span class=cl>3 Speed       40 ft., fly 80 ft., swim 40 ft. NA
+</span></span></code></pre></td></tr></table></div></div><p>This data frame has properly encoded missingness. To do this, I needed to use a loop as shown below.</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-r data-lang=r><span class=line><span class=cl><span class=c1>## Attributes: AC, HP, speed</span>
+</span></span><span class=line><span class=cl><span class=n>attr_nodes</span> <span class=o>&lt;-</span> <span class=n>page</span> <span class=o>%&gt;%</span>
+</span></span><span class=line><span class=cl>	<span class=nf>html_nodes</span><span class=p>(</span><span class=s>&#34;.mon-stat-block__attribute&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=n>attrs</span> <span class=o>&lt;-</span> <span class=nf>do.call</span><span class=p>(</span><span class=n>rbind</span><span class=p>,</span> <span class=nf>lapply</span><span class=p>(</span><span class=n>attr_nodes</span><span class=p>,</span> <span class=nf>function</span><span class=p>(</span><span class=n>node</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>	<span class=n>label</span> <span class=o>&lt;-</span> <span class=n>node</span> <span class=o>%&gt;%</span>
+</span></span><span class=line><span class=cl>		<span class=nf>select_text</span><span class=p>(</span><span class=s>&#34;.mon-stat-block__attribute-label&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>	<span class=n>data_value</span> <span class=o>&lt;-</span> <span class=n>node</span> <span class=o>%&gt;%</span>
+</span></span><span class=line><span class=cl>		<span class=nf>select_text</span><span class=p>(</span><span class=s>&#34;.mon-stat-block__attribute-data-value&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>	<span class=n>data_extra</span> <span class=o>&lt;-</span> <span class=n>node</span> <span class=o>%&gt;%</span>
+</span></span><span class=line><span class=cl>		<span class=nf>select_text</span><span class=p>(</span><span class=s>&#34;.mon-stat-block__attribute-data-extra&#34;</span><span class=p>)</span> <span class=o>%&gt;%</span>
+</span></span><span class=line><span class=cl>		<span class=nf>replace_if_empty</span><span class=p>(</span><span class=kc>NA</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>	<span class=nf>tibble</span><span class=p>(</span><span class=n>label</span> <span class=o>=</span> <span class=n>label</span><span class=p>,</span> <span class=n>value</span> <span class=o>=</span> <span class=n>data_value</span><span class=p>,</span> <span class=n>extra</span> <span class=o>=</span> <span class=n>data_extra</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=p>}))</span>
+</span></span></code></pre></td></tr></table></div></div><p>The code below makes use of two helper functions that I wrote to cut down on code repetition:</p><ul><li><code>select_text</code> to cut down on the repetitive <code>page %>% html_nodes %>% html_text</code></li></ul><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-r data-lang=r><span class=line><span class=cl><span class=n>select_text</span> <span class=o>&lt;-</span> <span class=nf>function</span><span class=p>(</span><span class=n>xml</span><span class=p>,</span> <span class=n>selector</span><span class=p>,</span> <span class=n>trim</span> <span class=o>=</span> <span class=kc>TRUE</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>	<span class=n>text</span> <span class=o>&lt;-</span> <span class=n>xml</span> <span class=o>%&gt;%</span> 
+</span></span><span class=line><span class=cl>		<span class=nf>html_nodes</span><span class=p>(</span><span class=n>selector</span><span class=p>)</span> <span class=o>%&gt;%</span>
+</span></span><span class=line><span class=cl>		<span class=n>html_text</span>
+</span></span><span class=line><span class=cl>	<span class=nf>if </span><span class=p>(</span><span class=n>trim</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>		<span class=n>text</span> <span class=o>&lt;-</span> <span class=n>text</span> <span class=o>%&gt;%</span>
+</span></span><span class=line><span class=cl>			<span class=n>trimws</span>
+</span></span><span class=line><span class=cl>	<span class=p>}</span>
+</span></span><span class=line><span class=cl>	<span class=n>text</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></td></tr></table></div></div><ul><li><code>replace_if_empty</code> to repace empty text with <code>NA</code></li></ul><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-r data-lang=r><span class=line><span class=cl><span class=n>replace_if_empty</span> <span class=o>&lt;-</span> <span class=nf>function</span><span class=p>(</span><span class=n>text</span><span class=p>,</span> <span class=n>to</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>	<span class=nf>if </span><span class=p>(</span><span class=nf>length</span><span class=p>(</span><span class=n>text</span><span class=p>)</span><span class=o>==</span><span class=m>0</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>		<span class=n>text</span> <span class=o>&lt;-</span> <span class=n>to</span>
+</span></span><span class=line><span class=cl>	<span class=p>}</span>
+</span></span><span class=line><span class=cl>	<span class=n>text</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></td></tr></table></div></div><p>I first select the three lines corresponding to these three attributes with</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-r data-lang=r><span class=line><span class=cl><span class=n>attr_nodes</span> <span class=o>&lt;-</span> <span class=n>page</span> <span class=o>%&gt;%</span>
+</span></span><span class=line><span class=cl>	<span class=nf>html_nodes</span><span class=p>(</span><span class=s>&#34;.mon-stat-block__attribute&#34;</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div><p>This creates a list of three nodes (pieces of the webpage/branches of the HTML tree) corresponding to the three lines of data:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>&gt; attr_nodes
+</span></span><span class=line><span class=cl>{xml_nodeset (3)}
+</span></span><span class=line><span class=cl>[1] &lt;div class=&#34;mon-stat-block__attribute&#34;&gt;\n            &lt;span class=&#34;mon-sta ...
+</span></span><span class=line><span class=cl>[2] &lt;div class=&#34;mon-stat-block__attribute&#34;&gt;\n            &lt;span class=&#34;mon-sta ...
+</span></span><span class=line><span class=cl>[3] &lt;div class=&#34;mon-stat-block__attribute&#34;&gt;\n            &lt;span class=&#34;mon-sta ...
+</span></span></code></pre></td></tr></table></div></div><p><strong>We can chain together a series of calls to <code>html_nodes</code>.</strong> I do this in the subsequent <code>lapply</code> statement. I know that each of these nodes contains up to three further subdivisions (label, value, and extra information). In this way I can make sure that these three pieces of information are aligned between the three lines of data.</p><p>Nearly all of the code in the <code>scrape_monster_page</code> function repeats these three principles, and I&rsquo;ve found that I routinely use similar ideas in other scraping I&rsquo;ve done with <code>rvest</code>.</p><a href=#summary><h1 id=summary><span class=hanchor arialabel=Anchor># </span>Summary</h1></a><p>This is a long post, but a few short take-home messages suffice to wrap ideas together:</p><ul><li><code>rvest</code> is remarkably effective at scraping what you need with fairly concise code. Following the three principles above has helped me a lot when I&rsquo;ve used this package.</li><li><code>rvest</code> can&rsquo;t do it all. For scraping tasks where you wish that you could automate clicking and typing in the browser (e.g. authentication settings), <code>RSelenium</code> is the package for you. In particular, the <code>rsDriver</code> function works right out of the box (as far as I can tell) and is great for people like me who are loath to install external dependencies.</li></ul><p>Happy scraping!</p></article><hr><div class=page-end id=footer><div class=backlinks-container><h3>Backlinks</h3><ul class=backlinks><li>No backlinks found</li></ul></div><div><script src=https://cdn.jsdelivr.net/npm/d3@6.7.0/dist/d3.min.js integrity="sha256-+7jaYCp29O1JusNWHaYtgUn6EhuP0VaFuswhNV06MyI=" crossorigin=anonymous></script><h3>Interactive Graph</h3><div id=graph-container></div><style>:root{--g-node:var(--secondary);--g-node-active:var(--primary);--g-node-inactive:var(--visited);--g-link:var(--outlinegray);--g-link-active:#5a7282}</style><script src=https://www.lesliemyint.org/js/graph.abd4bc2af3869a96524d7d23b76152c7.js></script></div></div><div id=contact_buttons><footer><p>Made by Leslie Myint using <a href=https://github.com/jackyzha0/quartz>Quartz</a>, © 2023</p><ul><li><a href=https://www.lesliemyint.org/>Home</a></li><li><a href=https://twitter.com/lesliemyint>Twitter</a></li><li><a href=https://github.com/lmyint>Github</a></li><li><a href=https://lesliemyint.substack.com/>Newsletter</a></li></ul></footer></div></div></body></html>
