@@ -12,9 +12,14 @@ If you want to get an idea of what is constantly on my mind, take a look at my [
 - 🌶 Books and articles (linear knowledge forms) are poor forms for *safeguarding* knowledge. On this front, I think a lot about [[Graph-based knowledge representations]].
     - Note: I'm not saying that we shouldn't use books and articles to communicate information. We shouldn't **ONLY** use books and articles. Graph-based representations are the future.
 - As a college educator, I think a lot about [[Teaching and learning]] and ways that they can be inspirational, joyful, and effective for both students and teachers.
-- What makes [[A beautiful life]]?
+- What makes [[A beautiful life]]? In reflecting on this question, I also write annual reviews:
+	- [[Annual Review 2022]]
 
 Other essays:
 
 - [[The Book of Why]]
 - [[Dungeons and Dragons Web Scraping with rvest and RSelenium]]
+
+## How was this site created?
+
+[[Colophon]]
