@@ -9,7 +9,7 @@ enableToc: false
 - [[talks/2023_05_25_acic|Controlling time-varying confounding in difference-in-differences studies using the time-varying treatments framework]]    
     [American Causal Inference Conference 2023](https://sci-info.org/annual-meeting/) • May 25, 2023
 
-- [[2023_04_07_cst|Alternative grading for "rigor" and beauty]]    
+- [[talks/2023_04_07_cst|Alternative grading for "rigor" and beauty]]    
     Center for Scholarship and Teaching seminar • Macalester College • April 7, 2023
 
 - [[talks/2022_08_10_jsm|Causal inference throughout the statistics curriculum]]    
