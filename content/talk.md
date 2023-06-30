@@ -3,10 +3,13 @@ title: "Presentations"
 enableToc: false
 ---
 
-- [[2023_05_25_acic|Controlling time-varying confounding in difference-in-differences studies using the time-varying treatments framework]]    
+- Access as the intersection of resources and practices    
+    [ASA Joint Statistical Meetings 2023](https://ww2.amstat.org/meetings/jsm/2023/program.cfm) • Toronto, Canada • August 9, 2023
+
+- [[talks/2023_05_25_acic|Controlling time-varying confounding in difference-in-differences studies using the time-varying treatments framework]]    
     [American Causal Inference Conference 2023](https://sci-info.org/annual-meeting/) • May 25, 2023
 
-- [[talks/2022_04_01_stthomas|Alternative grading for "rigor" and beauty]]    
+- [[2023_04_07_cst|Alternative grading for "rigor" and beauty]]    
     Center for Scholarship and Teaching seminar • Macalester College • April 7, 2023
 
 - [[talks/2022_08_10_jsm|Causal inference throughout the statistics curriculum]]    
