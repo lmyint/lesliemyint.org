@@ -3,7 +3,7 @@ title: "Presentations"
 enableToc: false
 ---
 
-- [[talks/2023_08_09_jsm|Access as the intersection of resources and practices]]    
+- [[2023_08_09_jsm|Access as the intersection of resources and practices]]    
     [ASA Joint Statistical Meetings 2023](https://ww2.amstat.org/meetings/jsm/2023/program.cfm) • Toronto, Canada • August 9, 2023
 
 - [[talks/2023_05_25_acic|Controlling time-varying confounding in difference-in-differences studies using the time-varying treatments framework]]    
