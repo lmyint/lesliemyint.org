@@ -1,16 +1,4 @@
 {
-<<<<<<< HEAD
-  "name": "quartz",
-  "description": "Quartz: an extensible and intuitive SSG",
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
-  "devDependencies": {
-    "@types/node": "^20.1.2",
-    "esbuild": "0.17.18",
-    "typescript": "^5.0.4"
-=======
   "name": "@jackyzha0/quartz",
   "description": "🌱 publish your digital garden and notes as a website",
   "private": true,
@@ -118,6 +106,5 @@
     "prettier": "^3.2.4",
     "tsx": "^4.9.3",
     "typescript": "^5.4.5"
->>>>>>> 9c726efa3329b647d4fdf346c67dc80762b68077
   }
 }
