@@ -1,8 +1,13 @@
 {
   "compilerOptions": {
+<<<<<<< HEAD
     "lib": [
       "esnext"
     ],
+=======
+    "lib": ["esnext", "DOM", "DOM.Iterable"],
+    "experimentalDecorators": true,
+>>>>>>> 9c726efa3329b647d4fdf346c67dc80762b68077
     "module": "esnext",
     "target": "esnext",
     "moduleResolution": "node",
@@ -13,6 +18,7 @@
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true,
+<<<<<<< HEAD
     "composite": true,
     "rootDir": ".",
     "jsx": "react-jsx",
@@ -26,4 +32,11 @@
   "exclude": [
     "**/*.d.ts"
   ]
+=======
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+  },
+  "include": ["**/*.ts", "**/*.tsx", "./package.json"],
+  "exclude": ["build/**/*.d.ts"],
+>>>>>>> 9c726efa3329b647d4fdf346c67dc80762b68077
 }
