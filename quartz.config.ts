@@ -8,33 +8,35 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "Leslie Myint",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: 'google',
+      tagId: 'G-JT0D8T1W29',
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "lesliemyint.org",
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "created",
+    defaultDateType: "modified", // "created", "modified", "published"
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
+        siteTitle: "Bilbo Swash Caps", // "Great Vibes"
+        header: "Kalam", // "Satisfy", "Shantell Sans", "Handlee"
         body: "Source Sans Pro",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
+          light: "#eee2dc", // "#faf8f8",
+          lightgray: "#DDC6BA",
+          gray: "#b0b0b0",
+          darkgray: "#444444",
+          dark: "#AC4E3B", // "#2b2b2b",
+          secondary: "#ac3b61", // "#284b63",
+          tertiary: "#F1810F",
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {

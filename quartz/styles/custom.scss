@@ -1,3 +1,57 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+.slides {
+  border: 2px solid var(--dark);
+  padding: 5px 10px 5px 10px; /* top right bottom left */
+}
+
+.slides::before {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/2529/2529620.png');
+  background-size: 0.8em 0.8em;
+  display: inline-block;
+  height: 0.8em;
+  width: 0.8em;
+  margin-right: 6px;
+  content: "";
+}
+
+.page-title {
+  font-size: 2.5rem;
+  font-family: var(--siteTitleFont);
+}
+
+.article-title {
+  font-size: 2rem;
+}
+
+.navmenu {
+  font-size: 1.15rem;
+  font-family: var(--headerFont);
+}
+
+.content-meta {
+  font-size: 1.1rem;
+}
+
+.content-meta-comp {
+  font-family: var(--siteTitleFont);
+  padding-right: 0.6em;
+}
+
+.image-banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.image-caption {
+  color: var(--gray);
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}

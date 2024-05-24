@@ -16,7 +16,7 @@ interface ContentMetaOptions {
 
 const defaultOptions: ContentMetaOptions = {
   showReadingTime: true,
-  showComma: true,
+  showComma: false,
 }
 
 export default ((opts?: Partial<ContentMetaOptions>) => {
@@ -30,6 +30,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
       const segments: (string | JSX.Element)[] = []
 
       if (fileData.dates) {
+        segments.push("Last tended")
         segments.push(formatDate(getDate(cfg, fileData)!, cfg.locale))
       }
 
@@ -39,10 +40,11 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
         const displayedTime = i18n(cfg.locale).components.contentMeta.readingTime({
           minutes: Math.ceil(minutes),
         })
+        segments.push("╌ ❖ ╌")
         segments.push(displayedTime)
       }
 
-      const segmentsElements = segments.map((segment) => <span>{segment}</span>)
+      const segmentsElements = segments.map((segment) => <span class="content-meta-comp">{segment}</span>)
 
       return (
         <p show-comma={options.showComma} class={classNames(displayClass, "content-meta")}>
