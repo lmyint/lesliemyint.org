@@ -25,7 +25,7 @@ Older (from when I was a graduate student):
 
 # Books
 
-- [[the book of why|The Book of Why]]
+- [[writing/the book of why|The Book of Why]]
 
 # Fun with R
 
