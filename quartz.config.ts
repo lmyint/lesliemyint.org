@@ -32,7 +32,7 @@ const config: QuartzConfig = {
         lightMode: {
           light: "#eee2dc", // "#faf8f8",
           lightgray: "#DDC6BA",
-          gray: "#b0b0b0",
+          gray: "#9e9e9e",
           darkgray: "#444444",
           dark: "#AC4E3B", // "#2b2b2b",
           secondary: "#ac3b61", // "#284b63",
@@ -66,10 +66,13 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
+      Plugin.ObsidianFlavoredMarkdown({ 
+        enableInHtmlEmbed: false,
+        wikilinks: false
+      }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+      Plugin.CrawlLinks({ markdownLinkResolution: "absolute" }),
       Plugin.Description(),
     ],
     filters: [Plugin.RemoveDrafts()],

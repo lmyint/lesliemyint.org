@@ -9,6 +9,6 @@ Much of the writing on my Substack centers on living a more beautiful life. My f
 - [Wait for the turn-around](https://lesliemyint.substack.com/p/wait-for-the-turn-around)
 
 Essays that are not on my Substack:
-- [[lightning lure|Lightning lure]]
-- [[twin brushstrokes of my marriage and career|The twin brushstrokes of my marriage and career]]
-- [[annual review 2022|Annual Review 2022]]
+- [Lightning lure](lightning%20lure.md)
+- [The twin brushstrokes of my marriage and career](twin%20brushstrokes%20of%20my%20marriage%20and%20career.md)
+- [Annual Review 2022](annual%20review%202022.md)

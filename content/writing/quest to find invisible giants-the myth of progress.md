@@ -38,11 +38,11 @@ Graphs are a powerful tool for navigating information because of their ability t
 
 The problem with Wikipedia is that article topics are overly broad, making many articles monolithic. In this way, links between Wikipedia articles are no better than citations in books and journal articles: navigating between concepts is like climbing a mountain.
 
-<img src="/images/invisible-giants-myth-of-progress/mountain.jpg" alt="Navigating Wikipedia links and journal/book citations is like climbing a mountain" style="display: block; margin-left: auto; margin-right: auto; height: 400px; border: 6px solid black;">
+<img src="../images/invisible-giants-myth-of-progress/mountain.jpg" alt="Navigating Wikipedia links and journal/book citations is like climbing a mountain" style="display: block; margin-left: auto; margin-right: auto; height: 400px; border: 6px solid black;">
 
 We need a Wikipedia-like system in which we decompose complex topics into smaller atomic concepts and create links between these digestible building blocks. In this system, navigating between concepts would be like climbing stairs.
 
-<img src="/images/invisible-giants-myth-of-progress/mountain_stairs.jpg" alt="Navigating an atomic concept graph is like climbing stairs" style="display: block; margin-left: auto; margin-right: auto; height: 400px; border: 6px solid black;">
+<img src="../images/invisible-giants-myth-of-progress/mountain_stairs.jpg" alt="Navigating an atomic concept graph is like climbing stairs" style="display: block; margin-left: auto; margin-right: auto; height: 400px; border: 6px solid black;">
 
 An atomic concept graph has the potential to *motivate* and *empower* any knowledge worker through incremental understanding.
 

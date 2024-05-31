@@ -15,14 +15,14 @@ This digital garden allows me to do just that.
 
 By writing, I gently tuck my ideas into the earth as seeds so that roots can take hold. Some of those seeds will flourish into flowers that I want to share with others. But many will just take root, intertwine, and sprout into chaos. And I wouldn't have it any other way.
 
-If you want to peek into my stream of consciousness, take a look at my [[daily seeds]]. 
+If you want to peek into my stream of consciousness, take a look at my [daily seeds](writing/daily%20seeds.md).
 
 If you want to explore a more curated collection of ideas, take a look at the entry points below:
 
-- **What are the biggest questions on my mind?** Take a look at my [[12 favorite problems]]. If any of these resonate with you, let's connect!
-- **How can learning be inspirational, joyful, and effective for students? How can teaching be inspirational, joyful, and fulfilling for teachers?** Take a look at my [[teaching and learning]] page.
-- **How can I nurture a healthy soul?** What are the parts of [[a beautiful life]]?
-- **Can we do better than books?** Books and articles (linear knowledge forms) are poor forms for *safeguarding* knowledge. On this front, I think a lot about [[graph-based knowledge representations]].
+- **What are the biggest questions on my mind?** Take a look at my [12 favorite problems](writing/12%20favorite%20problems.md). If any of these resonate with you, let's connect!
+- **How can learning be inspirational, joyful, and effective for students? How can teaching be inspirational, joyful, and fulfilling for teachers?** Take a look at my [teaching and learning](writing/teaching%20and%20learning.md) page.
+- **How can I nurture a healthy soul?** What are the parts of [a beautiful life](writing/a%20beautiful%20life.md)?
+- **Can we do better than books?** Books and articles (linear knowledge forms) are poor forms for *safeguarding* knowledge. On this front, I think a lot about [graph-based knowledge representations](writing/graph-based%20knowledge%20representations.md).
 
 <style>
 .page-listing {display: none;}
