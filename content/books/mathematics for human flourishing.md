@@ -3,14 +3,26 @@ title: "Mathematics for Human Flourishing"
 date: 2024-05-31
 lastmod: 2024-05-31
 ---
+# Metadata
 
-# Preface
+- **Full title:** Mathematics for Human Flourishing
+- **Authors:** Francis Su, Christopher Jackson
+- **Year published:** 2020
+- **Tags:** #joy
+
+<center>
+<img src="https://m.media-amazon.com/images/I/81PPPf7UkEL._SL1500_.jpg" height="300">
+</center>
+
+# Highlights
+
+## Preface
 
 > This book is not about how great mathematics is, though it is, indeed, a glorious endeavor. Nor does it focus on what math can do, though it undeniably can do many things. Rather, this is a book that grounds mathematics in what it means to be a human being and to live a more fully human life.
 
 > Maybe the way for you to see yourself in mathematics is not for me to convince you that math is great or that math does lots of wonderful things, but for me to show you that math is intimately tied to being human. For then your deepest human desires reveal your mathematical nature and you need only to awaken it.
 
-# Chapter 1: Flourishing
+## Chapter 1: Flourishing
 
 Math is everywhere:
 

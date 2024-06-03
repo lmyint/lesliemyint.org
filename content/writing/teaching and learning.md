@@ -8,25 +8,25 @@ lastmod: 2023-07-20
 
 Since starting at Macalester:
 
-- [12 Favorite Problems: The key to classroom community](writing/12%20favorite%20problems-the%20key%20to%20classroom%20community.md)
-- [Coach, don't just teach](writing/coach,%20dont%20just%20teach.md)
-- [Grading doesn't have to suck](writing/grading%20doesnt%20have%20to%20suck.md)
+- [[writing/12 favorite problems-the key to classroom community|12 Favorite Problems: The key to classroom community]]
+- [[writing/coach, dont just teach|Coach, don't just teach]]
+- [[writing/grading doesnt have to suck|Grading doesn't have to suck]]
 
 Older (from when I was a graduate student):
 
-- [Fight every battle everywhere: this is science](writing/fight%20every%20battle%20everywhere-this%20is%20science.md)
-- [Teaching real math with computers](writing/teaching%20real%20math%20with%20computers.md)
-- [Motivating the question](writing/motivating%20the%20question.md)
-- [Perspectives on the Interactive Mathematics Program](writing/perspectives%20on%20the%20interactive%20mathematics%20program.md)
+- [[writing/fight every battle everywhere-this is science|Fight every battle everywhere: this is science]]
+- [[writing/teaching real math with computers|Teaching real math with computers]]
+- [[writing/motivating the question|Motivating the question]]
+- [[writing/perspectives on the interactive mathematics program|Perspectives on the Interactive Mathematics Program]]
 
 # Notes
 
-- [A beautiful syllabus](writing/a%20beautiful%20syllabus.md): A place to capture ideas on inspirational course design and structure
+- [[writing/a beautiful syllabus|A beautiful syllabus]]: A place to capture ideas on inspirational course design and structure
 
 # Books
 
-- [The Book of Why](writing/books/the%20book%20of%20why.md)
+- [[books/the book of why|The Book of Why]]
 
 # Fun with R
 
-- [Dungeons and Dragons Web Scraping with rvest and RSelenium](writing/dnd%20web%20scraping%20with%20rvest%20and%20rselenium.md)
+- [[writing/dnd web scraping with rvest and rselenium|Dungeons and Dragons Web Scraping with rvest and RSelenium]]

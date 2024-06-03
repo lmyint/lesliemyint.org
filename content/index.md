@@ -12,6 +12,6 @@ Hi, I'm Leslie.
 
 I teach statistics and data science at Macalester College with [awesome mathematicians, computer scientists, statisticians, and data scientists](https://www.macalester.edu/mscs/) as colleagues.
 
-I have a secret subversive plan to make academia as joyful, meaningful, and giving as a campaign of Dungeons and Dragons. To do that, I [write](writing/index.md).
+I have a secret subversive plan to make academia as joyful, meaningful, and giving as a campaign of Dungeons and Dragons. To do that, I [[writing/index|write]].
 
 Welcome to my digital garden, co-conspirator.

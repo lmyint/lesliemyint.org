@@ -5,6 +5,19 @@ lastmod: 2018-07-25
 math: true
 ---
 
+# Metadata
+
+- **Full title:** The Book of Why: The New Science of Cause and Effect
+- **Authors:** Judea Pearl, Dana Mackenzie
+- **Year published:** 2018
+- **Tags:** #causality
+
+<center>
+<img src="https://m.media-amazon.com/images/I/71rhX-7PJmL._SL1500_.jpg" height="300">
+</center>
+
+# Synthesis
+
 I just finished reading *The Book of Why* by Judea Pearl and Dana Mackenzie, and I really enjoyed it. I had been wanting to read it for some time now because I know very little about methodology relating to causal diagrams and structure learning. The book provides an overview of the main ideas that formed and historical events that led up to what Pearl calls the "Causal Revolution", a burgeoning of the direct interrogation of causation as opposed to its implicit renouncement in science for a period before then. Much of the causal inference methodology that Pearl discusses in the book is his own, namely that of causal diagrams and *do*-calculus. In light of his own methods, he also discusses techniques that are popular in disciplines such as psychology and economics. He also discusses another major framework for causal inference, the Rubin causal model. In reflecting on the book, I found it useful to organize my thoughts according to major themes I saw in the book.
 
 ## Language and diagrams

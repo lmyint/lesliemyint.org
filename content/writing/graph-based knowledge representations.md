@@ -16,7 +16,7 @@ When I refer to books and articles, I really just mean linear representations of
 
 What is so bad about linearity?
 
-- I've [written previously](quest%20to%20find%20invisible%20giants-the%20myth%20of%20progress.md) on the drawbacks of linearity as an academic learning a new area through journal articles. Essentially, journal articles paradoxically suffer from a simultaneous redundancy and dearth of background information. Redundancy arises because introduction sections across articles in a given area are needlessly similar. Dearth arises when articles on complex topics don't provide easy access to background that would make the subject more accessible.
+- I've [[writing/quest to find invisible giants-the myth of progress|written previously]] on the drawbacks of linearity as an academic learning a new area through journal articles. Essentially, journal articles paradoxically suffer from a simultaneous redundancy and dearth of background information. Redundancy arises because introduction sections across articles in a given area are needlessly similar. Dearth arises when articles on complex topics don't provide easy access to background that would make the subject more accessible.
 - For the same reasons, linearity is also a problem for students. Standard course materials (readings, videos) are self-contained linear representations of information. However, students come into a course/learning experience with huge variation in background knowledge and preparation and inevitably need more than what these resources can offer. Students with poorer preparation need easy access to more background on prerequisite material, and students with good understanding need easy access to additional concepts to continue being challenged.
 
 

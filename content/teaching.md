@@ -21,9 +21,9 @@ I teach the following courses at Macalester. Some of my courses have course webs
 
 # Philosophy on teaching and learning
 
-The pillars that ground my teaching and wishes that drive my planning are constantly evolving. [I write about these ideas in my digital garden](writing/teaching%20and%20learning.md).
+The pillars that ground my teaching and wishes that drive my planning are constantly evolving. [[writing/teaching and learning|I write about these ideas in my digital garden]].
 
-- [A beautiful syllabus](writing/a%20beautiful%20syllabus.md): A place to capture ideas on inspirational course design and structure
+- [[writing/a beautiful syllabus|A beautiful syllabus]]: A place to capture ideas on inspirational course design and structure
 
 <style>
 .content-meta { display: none;}

@@ -25,7 +25,7 @@ I want to try something radically different.
 
 Imagine being asked this right off the bat in any potentially awkward social situation (e.g., meeting new people, the first day of class). Imagine someone saying those magical two words: "Me too."
 
-"What are you obsessed with?" is a [[lightning lure|lightning lure]] of a question. The sparks that fly when a connection crackles into existence could set the world ablaze.
+"What are you obsessed with?" is a [[writing/lightning lure|lightning lure]] of a question. The sparks that fly when a connection crackles into existence could set the world ablaze.
 
 A framework called the "12 favorite problems" (12FP) is a series of lightning rods for channeling that electrifying question.
 
