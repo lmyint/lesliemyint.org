@@ -6,7 +6,7 @@ tags:
     - invited
 ---
 
-<img src="2019_03_22_creighton.jpg" style="width: 300px; float: right; padding: 0px 0px 20px 40px">
+<img src="talks/2019_03_22_creighton.jpg" style="width: 300px; float: right; padding: 0px 0px 20px 40px">
 
 <span class="slides">[Slides](https://docs.google.com/presentation/d/1JtTMhWT8qZh9TiciD4UAHwRMJ5jGXqhqVNkSEG2O7Wg/edit?usp=sharing)</span>
 

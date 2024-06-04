@@ -7,7 +7,7 @@ tags:
     - invited
 ---
 
-<img src="2020_10_30_minne_wiads.jpg" style="width: 300px; float: right; padding: 0px 0px 20px 40px;">
+<img src="talks/2020_10_30_minne_wiads.jpg" style="width: 300px; float: right; padding: 0px 0px 20px 40px;">
 
 <span class="slides">[Slides](https://docs.google.com/presentation/d/1ACWVKLDd8DmSqYFzVBwp-Jz-rMRYhcLR1OL7sEVYsM4/edit?usp=sharing)</span>
 

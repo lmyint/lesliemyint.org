@@ -68,7 +68,7 @@ const config: QuartzConfig = {
       }),
       Plugin.ObsidianFlavoredMarkdown({ 
         enableInHtmlEmbed: false,
-        wikilinks: false
+        wikilinks: true
       }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
