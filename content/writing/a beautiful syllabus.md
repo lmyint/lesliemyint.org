@@ -40,3 +40,10 @@ What would you rather have them see?
 The structure of this course is meant to propel towards these 3 goals.
 
 Earning the grade of your dreams will be a *byproduct*.
+
+# Sharing your work
+
+You've created something awesome - what a win! What you created shouldn't live only on your hard drive to never be seen again. Here are some venues where you might share your work
+
+- [OpenLab](https://openlab.studio/): a platform for sharing projects so that they can inspire other projects
+- [Significance Magazine](https://significancemagazine.com/) has an annual writing competition for data-driven stories. Entries are generally due May 31.
