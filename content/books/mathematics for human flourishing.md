@@ -1,7 +1,7 @@
 ---
-title: "Mathematics for Human Flourishing"
+title: Mathematics for Human Flourishing
 date: 2024-05-31
-lastmod: 2024-05-31
+lastmod: 2024-06-24
 ---
 # Metadata
 
@@ -37,3 +37,9 @@ Math is everywhere:
 
 > I’m saying that the pursuit of math can, if grounded in human desires, build aspects of character and habits of mind that will allow you to live a more fully human life and experience the best of what life has to offer. None of us is wholly virtuous; we all are works in progress with room to grow. And there are many ways to grow in virtue, not just in mathematics. But does the proper practice of mathematics build particular virtues, like the ability to think clearly and to reason well? Unequivocally yes, and it may do so in a distinctive way.
 > Page 12
+
+# Chapter 2: Exploration
+
+> Mathematical exploration is very much like space exploration, but of a different kind of space—a space of ideas. You don’t know what you’ll find when you start. You send out probes to test theories. You are captivated by mystery, motivated by questions, undeterred by setbacks. You make discoveries from a distance: because the ideas themselves are not physical, you access this space through reason. Exploration and understanding are at the heart of what it means to do mathematics.
+
+
