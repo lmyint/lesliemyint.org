@@ -17,3 +17,5 @@ Institutional collaborations with AI
 
 CHE report: The Emerging Role of Gen AI in Academic Research
 - 
+
+How much energy does a ChatGPT query use? (And for training?) https://www.washington.edu/news/2023/07/27/how-much-energy-does-chatgpt-use/
