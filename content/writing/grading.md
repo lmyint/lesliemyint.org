@@ -1,16 +1,16 @@
 ---
-title: "Grading"
+title: Grading
 date: 2024-06-28
-lastmod: 2024-06-28
+lastmod: 2024-07-04
 ---
 
-Grading...what a beast! It is an immense and complex topic that is 
+Grading...what a beast! It is an immense and complex topic that touches on what it means to be a good teacher
 
 # What do I want for my students?
 
 (What I wish for that is mostly under *their* control)
 - To take a risk, to step out of their comfort zone
-    - In learning a new subject that they had negative inclinations toward or had no idea about
+    - In learning a new subject that they had negative inclinations toward or had no idea about. In letting themselves be vulnerable enough to be curious.
     - In connecting with others who they might be unsure about. To be curious about the life of someone who they would probably not be friends with normally.
 
 # What do I want for myself as a teacher?
