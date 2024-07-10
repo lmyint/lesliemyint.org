@@ -4,7 +4,7 @@ date: 2022-12-06
 lastmod: 2024-05-23
 ---
 
-1. How do we save the world? How do we figure out what that even means?
+1. [[writing/saving the world|How do we save the world? How do we figure out what that even means?]]
 2. How do I care for my soul amidst systems that constantly repress it?
 3. How can I be a mother that I am proud of while recognizing that I am many other things too?
 4. How can I be a teacher that I am proud of without living in fear of external validation?
