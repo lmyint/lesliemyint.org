@@ -10,7 +10,7 @@ lastmod: 2024-05-23
 4. How can I be a teacher that I am proud of without living in fear of external validation?
 5. How can we create new models of education that are *fun* and cultivate a better world while working within systems that make this work challenging?
 6. How can I cultivate a lasting, loving relationship with my partner without fearing change?
-7. How can I keep working toward making the impact that I want without constantly second-guessing myself?
+7. How can I keep working toward making the impact that I want without losing heart or constantly second-guessing myself?
 8. How can I convince others to take meaningful action without forcing them or being preachy?
 9. How can we keep building new ways to encourage healthy collaboration between groups despite numerous barriers?
 10. How can we create cultures where giving and helping are the norms when so many times, the prevailing norm is that of survival?

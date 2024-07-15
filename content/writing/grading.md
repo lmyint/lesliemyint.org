@@ -1,10 +1,10 @@
 ---
 title: Grading
 date: 2024-06-28
-lastmod: 2024-07-04
+lastmod: 2024-07-11
 ---
 
-Grading...what a beast! It is an immense and complex topic that touches on what it means to be a good teacher
+Grading...what a beast! It is an immense and complex topic that touches on learner motivation, what it means to be a good teacher, and everything in between.
 
 # What do I want for my students?
 
