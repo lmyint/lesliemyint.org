@@ -1,7 +1,7 @@
 ---
 title: "Saving the world"
 date: 2024-07-10
-lastmod: 2024-07-10
+lastmod: 2024-07-16
 ---
 
 Saving the world has been on my mind a lot recently. Whenever the feelings surrounding this aspiration are strongest, I'm picturing my daughter. As the toddler she is now, reveling in the joy of bubble wands and Play-Doh. As an adolescent, with uncertainty about the future. With hope too? As an adult, thinking about the trajectory of her life both behind and ahead of her. As a mother? As a partner? What will her worries be when she gets older? What will she value and think of the world? Will she have on her mind as much as I do whether the world will be there for her and her children?
@@ -14,4 +14,15 @@ Perhaps when I think about saving the world, I think about saving people enough 
 
 Because the reality is that there is *so much* to saving the world. The problems that are top of mind for me are just some of the ways in which the world is messed up. Convincing others that my favorite problems are the most important is not the way to empower others to make meaningful change. Everyone needs to discover for themselves what saving the world means to them. Maybe everyone is already working to save the world in some way.
 
-But how can we be a community in saving the world in our individual ways?
+But how can we be in community with each other as we work to save the world in our individual ways? Some concrete big problems in the world based on what I've been reading recently:
+
+- Mode of communication: most books are not read widely enough to form communities or allow writers to fully support themselves ([[writing/2024-05-24|2024-05-24]])
+- Dopamine culture ([[writing/2024-05-28|2024-05-28]])
+- Fear of AI ([[writing/2024-05-29|2024-05-29]])
+- Parenting is the root of so much. Parenting affects the way that children attach, which follows them for the rest of their lives. ([[writing/2024-05-30|2024-05-30]])
+- Survival mode, "making it", "rigor" ([[writing/2024-06-03|2024-06-03]])
+- Where is the fun, joy, beauty, peace in our world? ([[writing/2024-06-04|2024-06-04]], [[writing/2024-06-05|2024-06-05]])
+- Finding the right adventuring party to navigate this complex world ([[writing/2024-06-27|2024-06-27]])
+- Ways that we might inadvertently strive for (or even be at in some ways) Universe 25 ([[writing/2024-06-11|2024-06-11]])
+- Environmental sustainability ([[writing/2024-06-12|2024-06-12]])
+
