@@ -22,6 +22,8 @@ Older (from when I was a graduate student):
 # Notes
 
 - [[writing/a beautiful syllabus|A beautiful syllabus]]: A place to capture ideas on inspirational course design and structure
+- [[writing/principles for giving feedback|Principles for giving feedback]]
+- [[writing/grading|Grading]]
 
 # Books
 

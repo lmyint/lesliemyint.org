@@ -11,12 +11,14 @@ Grading...what a beast! It is an immense and complex topic that touches on learn
 (What I wish for that is mostly under *their* control)
 - To take a risk, to step out of their comfort zone
     - In learning a new subject that they had negative inclinations toward or had no idea about. In letting themselves be vulnerable enough to be curious.
-    - In connecting with others who they might be unsure about. To be curious about the life of someone who they would probably not be friends with normally.
+    - In connecting with others whom they might be unsure about. To be curious about the life of someone who they would probably not connect with normally.
+
+How do the different parts of my grading system incentivize or disincentivize these?
 
 # What do I want for myself as a teacher?
 
 (What I wish for that is mostly under *my* control)
-- To connect authentically with my students
+- To connect authentically with my students - where that connection is over ideas both related to and unrelated to the course.
 
 # The 4 pillars of alternative grading
 
@@ -36,7 +38,7 @@ This reminds me of a moment during the Johns Hopkins Summer Teaching Institute. 
 
 ## Helpful feedback
 
-Fully on board with this one. Qualitative feedback is my preferred method. Insights from the *Feedback in Small Shifts* session at SPAW 2023:
+Fully on board with this one. Qualitative feedback is my preferred method. I found [[writing/principles for giving feedback|these insights]] from the *Feedback in Small Shifts* session at Macalester's 2023 Spring Professional Activities Workshop were particularly helpful in my perspectives on feedback.
 
 ## Marks indicate progress
 
@@ -54,7 +56,7 @@ When I taught Machine Learning in the module system, I gave take-home quizzes th
 
 ## Reattempts without penalty
 
-This has been a mainstay in my grading systems ever since I 
+This has been a mainstay in my grading systems ever since I started experimenting with alternative grading.
 
 I do want to note that "reattempts without penalty" means "reattempts without *direct* penalty *on your grade*" and NOT "reattempts without constraints". Because the reality is that the instructional team absolutely has constraints on their time. These constraints might make it so that a student is not able to demonstrate the highest level of understanding within the reattempts that the instructional team has time for.
 
@@ -70,6 +72,45 @@ We can limit the number, schedule, and frequency (e.g., one problem per week) or
 
 # The 3 pillars of equitable grading
 
+In his book *[Grading for Equity](https://www.gradingforequity.org/)*, Joe Feldman proposes 3 pillars for using grading to promote equitable learning experiences for students. Grades should be:
+
+- Accurate
+- Bias-resistant
+- Motivational
+
 # What does an A even mean?
 
-https://www.chronicle.com/article/freeaccess/what-an-a-really-means
+[What Does an A Really Mean?](https://www.chronicle.com/article/freeaccess/what-an-a-really-means) (from *The Chronicle of Higher Education*)
+
+# Making disciplinary practices an explicit part of the grading system
+
+*(Thanks to Amy Parrott and Jason K. Belnap for facilitating this [session](https://thegradingconference.com/2024-session-descriptions/#strategies-and-practices-part-1) at the 2024 Grading Conference.)*
+
+**Motivating question:** How does the work and focus in your discipline compare to the K-12 student experience? Undergraduate experience? Public perception?
+
+How do K-12 students, undergraduate students, and the public perceive statistics? My impression is that statistics is perceived as rote, boring, useless in daily life, and untrustworthy.
+
+The motivating question is meant to highlight the differences between how we actually practice our disciplines and what others perceive. Disciplinary practices are the subtle parts of our disciplines that permeate the day to day. But they need not be subtle in our classrooms!
+
+What practices do I want my statistics and data science students to develop?
+- Curiosity: Experiencing the tug of an interesting question and following it on paths shaped by data
+- Concern for others: Statistics and data science truly are tools to help make the world a better place. They are absolutely not the only tools, but they are tools that are part of *an* approach.
+- Humility: Like any tools, statistics and data science are not perfect for learning what we need to about the world.
+
+Small micro-practices that students can practice regularly to engage in curiosity, concern for others, and humility can be part of the course grading system.
+
+# Ungrading and motivation
+
+*(Thanks to Ashleigh Fox for facilitating this [session](https://thegradingconference.com/2024-session-descriptions/#student-perspectives) at the 2024 Grading Conference.)*
+
+There are many 
+
+# Lessons in Ungrading from Disability Studies
+
+*(Thanks to Sarah Silverman for facilitating this [session](https://thegradingconference.com/2024-session-descriptions/#dei-and-alternative-grading) at the 2024 Grading Conference)*
+
+There is a slippery slope when it comes to assessment. Often, the picture can look like this: Assessing -> Measuring -> Ranking -> Dividing -> Norming -> Removing/Culling
+
+When we slide down the slope towards ranking, dividing, and norming, we run the risk of culling people who are deemed "unfit" by the measure that we choose.
+
+How can we prioritize welcoming in and back instead of weeding out?
