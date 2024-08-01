@@ -18,7 +18,7 @@ I grin like the Cheshire cat.
 
 To invoke the spirit of the game, Dungeons and Dragons (D&D) is my lightning lure. In the game, [Lightning Lure](https://blackcitadelrpg.com/spells/lightning-lure-5e/) is a spell that creates a brief electrical whip that pulls an unsuspecting figure towards the caster. In life, a lightning lure is an electrifying idea that sparks deeper connection and magnetism between souls.
 
-D&D is many different things to different people: it's a group storytelling experience, a tactical war game, an outlet for artistic creativity, a way to get together with friends. I love the game for all of those reasons, but it entrances me at a much deeper level. I see it as a portal to alternate worlds, a realm where I can think about my [[12 favorite problems|biggest questions in life]].
+D&D is many different things to different people: it's a group storytelling experience, a tactical war game, an outlet for artistic creativity, a way to get together with friends. I love the game for all of those reasons, but it entrances me at a much deeper level. I see it as a portal to alternate worlds, a realm where I can think about my [[writing/favorite problems|biggest questions in life]].
 
 The stories that we can explore through the game's campaigns are limitless. They allow us to explore ideas as expansive as the rise and fall of civilizations and as intimate as the relationship between a mother and a daughter. Fiction similarly has this universe of possibilities, but unlike fiction, D&D offers players a chance to be protagonists in these stories. Whenever I think about a problem that I wish I could solve, I think about how I could explore it through a D&D campaign.
 

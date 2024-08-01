@@ -1,7 +1,7 @@
 ---
 title: Grading
 date: 2024-06-28
-lastmod: 2024-07-11
+lastmod: 2024-07-31
 ---
 
 Grading...what a beast! It is an immense and complex topic that touches on learner motivation, what it means to be a good teacher, and everything in between.
@@ -78,9 +78,18 @@ In his book *[Grading for Equity](https://www.gradingforequity.org/)*, Joe Feldm
 - Bias-resistant
 - Motivational
 
-# What does an A even mean?
+# What is the point of grading?
 
-[What Does an A Really Mean?](https://www.chronicle.com/article/freeaccess/what-an-a-really-means) (from *The Chronicle of Higher Education*)
+[What Does an A Really Mean?](https://www.chronicle.com/article/freeaccess/what-an-a-really-means) from *The Chronicle of Higher Education* offers several perspectives on what grades mean to students, teachers, and the world beyond college.
+
+Grading generally has the following intents and impacts. Whether these intents and impacts are good is another question.
+
+- Give feedback to students during a course
+- Encourage students to adopt certain behaviors (which may or may not be learning-supporting)
+- Signal to students whether they are good at something
+- Signal to those outside of college what a student knows
+
+If we accept that learning and feedback is where teachers start when thinking about their grading systems, we still have to be wary of a slippery slope when it comes to assessment. Often, the picture can look like this: Assessing -> Measuring -> Ranking -> Dividing -> Norming -> Removing/Culling.  When we slide down the slope towards ranking, dividing, and norming, we run the risk of culling people who are deemed "unfit" by the measure that we choose (whatever grading system we implement). **How can we prioritize welcoming in and back instead of weeding out?** *(Perspective comes from Sarah Silverman's [session](https://thegradingconference.com/2024-session-descriptions/#dei-and-alternative-grading) at the 2024 Grading Conference.)* 
 
 # Making disciplinary practices an explicit part of the grading system
 
@@ -103,14 +112,15 @@ Small micro-practices that students can practice regularly to engage in curiosit
 
 *(Thanks to Ashleigh Fox for facilitating this [session](https://thegradingconference.com/2024-session-descriptions/#student-perspectives) at the 2024 Grading Conference.)*
 
-There are many 
+Ungrading has the following benefits for student motivation:
+- The emphasis on reflection and conversation with the instructor to assess learning shifts the focus from grades to learning.
+- Ungrading appears to increase autonomy and, in turn, intrinsic motivation.
+- Ungrading appears to reduce student incentive to engage in academic dishonesty.
+- Ungrading can really foster a growth mindset by not only destigmatizing failure but *embracing* it as a crucial part of the learning process.
 
-# Lessons in Ungrading from Disability Studies
+Ungrading can also be a barrier to student motivation:
+- The science of negativity bias tells us that humans have a biological inclination to allocate attention toward potential threats instead of positive information. This results in a decrease in motivation when punishment is removed. When an incentive is framed as an avenue to acquire something instead of to prevent the loss of something, individuals exhibit lower levels of motivation
+- Students may pay more attention to positive feedback that tells them where they're already doing well than negative feedback that tells them where they can keep improving. This means that they may not fully engage in learning feedback loops.
+- Simply removing grades doesn't increase motivation to learn.
+- Students don't always take advantage of opportunities to revise/resubmit work.
 
-*(Thanks to Sarah Silverman for facilitating this [session](https://thegradingconference.com/2024-session-descriptions/#dei-and-alternative-grading) at the 2024 Grading Conference)*
-
-There is a slippery slope when it comes to assessment. Often, the picture can look like this: Assessing -> Measuring -> Ranking -> Dividing -> Norming -> Removing/Culling
-
-When we slide down the slope towards ranking, dividing, and norming, we run the risk of culling people who are deemed "unfit" by the measure that we choose.
-
-How can we prioritize welcoming in and back instead of weeding out?
