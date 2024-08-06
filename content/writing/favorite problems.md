@@ -5,7 +5,7 @@ lastmod: 2024-08-01
 ---
 
 1. [[writing/saving the world|How do we save the world? How do we figure out what that even means?]]
-2. How do I care for my soul within a culture that makes this so easy to forget?
+2. [[writing/caring for the soul|How do I care for my soul within a culture that makes this so easy to forget?]]
 3. How do I fully embrace being "good enough" while still striving to be better? How do I continue striving in the face of resistance without becoming jaded?
 4. How can I be a mother that I am proud of while recognizing that I am many other things too?
 5. How can I be a teacher that I am proud of while being true to who I am and without living in fear of external validation?

@@ -1,7 +1,7 @@
 ---
-title: "Teaching and learning"
+title: Teaching and learning
 date: 2022-12-07
-lastmod: 2023-07-20
+lastmod: 2024-07-20
 ---
 
 # Essays
