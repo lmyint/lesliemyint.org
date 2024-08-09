@@ -8,7 +8,7 @@ lastmod: 2024-08-01
 2. [[writing/caring for the soul|How do I care for my soul within a culture that makes this so easy to forget?]]
 3. How do I fully embrace being "good enough" while still striving to be better? How do I continue striving in the face of resistance without becoming jaded?
 4. How can I be a mother that I am proud of while recognizing that I am many other things too?
-5. How can I be a teacher that I am proud of while being true to who I am and without living in fear of external validation?
+5. [[writing/teaching and learning|How can I teach in a way that reaches every student without burning out and while being true to who I am?]]
 6. [[writing/teaching and learning|How can we create new models of education that are fun and cultivate a better world while working within traditional education systems that make this work challenging?]]
 7. How can I cultivate a lasting, loving relationship with my partner without fearing change?
 8. How can I keep working toward making the impact that I want without losing heart or constantly second-guessing myself?
