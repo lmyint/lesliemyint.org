@@ -4,6 +4,9 @@ date: 2022-12-07
 lastmod: 2024-08-09
 ---
 
+> **How can I teach in a way that reaches every student without burning out and while being true to who I am?**
+> 
+> **How can we create new models of education that are fun and cultivate a better world while working within traditional education systems that make this work challenging?**
 # Teaching is as much about the teacher as it is the students
 
 I came to deeply appreciate this after reading [[books/the courage to teach|The Courage to Teach]] by Parker Palmer. My Substack essay [Who is the teacher that teaches?](https://lesliemyint.substack.com/p/who-is-the-teacher-that-teaches) explores some crucial aspects of my identity that have shaped how I approached teaching in the past and how I want to approach it in the future.
@@ -55,6 +58,7 @@ Older (from when I was a graduate student):
 - [[writing/a beautiful syllabus|A beautiful syllabus]]: A place to capture ideas on inspirational course design and structure
 - [[writing/principles for giving feedback|Principles for giving feedback]]
 - [[writing/grading|Grading]]
+- [[writing/alternative college|Alternative colleges]]
 
 # Books
 

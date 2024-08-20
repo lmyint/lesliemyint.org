@@ -13,9 +13,9 @@ lastmod: 2024-08-01
 7. How can I cultivate a lasting, loving relationship with my partner without fearing change?
 8. How can I keep working toward making the impact that I want without losing heart or constantly second-guessing myself?
 9. How can I center the search for and creation of beauty in my life when it's so easy to fall into routines where beauty is unseen?
-10. How can we keep building new ways to encourage healthy collaboration between groups despite numerous barriers?
-11. How can we create cultures where giving and helping are the norms when so many times, the prevailing norm is that of survival?
-12. How can we build systems that are committed to fostering trust in data when, so often, facts don't change people's minds?
+10. [[writing/community collaboration|How can we keep building new ways to encourage healthy collaboration between groups despite numerous barriers?]]
+11. [[writing/cultures of giving|How can we create cultures where giving and helping are the norms when so many times, the prevailing norm is that of survival?]]
+12. [[writing/trustworthy community data|How can we build systems that are committed to fostering trust in data when, so often, facts don't change people's minds?]]
 
 # Evolution
 
