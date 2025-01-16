@@ -133,6 +133,32 @@ In the future R&E is trying to pivot so that what gets put in trash can be recov
     - Organic-rich material
 - Anaerobic digestion #learn-more
 
+# Food and yard waste
+
+Compost is soil made of:
+
+- Soil particles (sand, silt, clay): 45%
+- Water: 25%
+- Oxygen: 20%
+- Carbon dioxide: 5%
+- Organic matter: 5%
+    - The living (living plant roots and soil organisms): 15%
+    - The dead (dead and decomposing plant roots and soil organisms): 15%
+    - The very dead (fully decomposed plant roots and soil organisms): 70%
+
+How does composting work? Stages of decomposition:
+
+1. Mesophilic
+    - Happens at cool temperatures
+    - Done by insects and bacteria
+    - Breaks down easily available materials
+2. Thermophilic
+    - Happens at hot temperatures
+    - Done by heat-tolerant microorganisms
+3. Curing
+    - Happens at cool temperatures again
+    - Done by actinomycetes and fungi
+
 # Other resources
 
 - 📖 [[books/fostering sustainability in higher education|Fostering Sustainability in Higher Education]]
