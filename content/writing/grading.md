@@ -1,7 +1,7 @@
 ---
 title: Grading
 date: 2024-06-28
-lastmod: 2024-07-31
+lastmod: 2025-01-10
 ---
 
 Grading...what a beast! It is an immense and complex topic that touches on learner motivation, what it means to be a good teacher, and everything in between.
@@ -12,6 +12,7 @@ Grading...what a beast! It is an immense and complex topic that touches on learn
 - To take a risk, to step out of their comfort zone
     - In learning a new subject that they had negative inclinations toward or had no idea about. In letting themselves be vulnerable enough to be curious.
     - In connecting with others whom they might be unsure about. To be curious about the life of someone who they would probably not connect with normally.
+- To experience some joy and curiosity about data and statistics
 
 How do the different parts of my grading system incentivize or disincentivize these?
 
@@ -19,6 +20,7 @@ How do the different parts of my grading system incentivize or disincentivize th
 
 (What I wish for that is mostly under *my* control)
 - To connect authentically with my students - where that connection is over ideas both related to and unrelated to the course.
+- To value my feedback and use it to improve
 
 # The 4 pillars of alternative grading
 

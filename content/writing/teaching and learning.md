@@ -60,6 +60,12 @@ Older (from when I was a graduate student):
 - [[writing/grading|Grading]]
 - [[writing/alternative college|Alternative colleges]]
 
+# Quotes
+
+> I remembered when I used to get anxious walking patients back to my office. Am I walking too fast? Am I swinging my hips? Does my ass look funny? It seems so long ago now. I admit I’m a battle-hardened version of my former self, more stoic, possibly more indifferent. Was I a better doctor then, when I knew less and felt more?
+> *Dopamine Nation*, Anna Lembke
+
+Caring too much can lead to indifference. Is indifference (in some degree) better?
 # Books
 
 - [[books/the book of why|The Book of Why]]

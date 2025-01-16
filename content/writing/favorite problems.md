@@ -1,21 +1,22 @@
 ---
-title: 12 Favorite Problems
+title: Favorite Problems
 date: 2022-12-06
-lastmod: 2024-08-01
+lastmod: 2025-01-16
 ---
 
 1. [[writing/saving the world|How do we save the world? How do we figure out what that even means?]]
-2. [[writing/caring for the soul|How do I care for my soul within a culture that makes this so easy to forget?]]
-3. How do I fully embrace being "good enough" while still striving to be better? How do I continue striving in the face of resistance without becoming jaded?
-4. How can I be a mother that I am proud of while recognizing that I am many other things too?
-5. [[writing/teaching and learning|How can I teach in a way that reaches every student without burning out and while being true to who I am?]]
-6. [[writing/teaching and learning|How can we create new models of education that are fun and cultivate a better world while working within traditional education systems that make this work challenging?]]
-7. How can I cultivate a lasting, loving relationship with my partner without fearing change?
-8. How can I keep working toward making the impact that I want without losing heart or constantly second-guessing myself?
-9. How can I center the search for and creation of beauty in my life when it's so easy to fall into routines where beauty is unseen?
-10. [[writing/community collaboration|How can we keep building new ways to encourage healthy collaboration between groups despite numerous barriers?]]
-11. [[writing/cultures of giving|How can we create cultures where giving and helping are the norms when so many times, the prevailing norm is that of survival?]]
-12. [[writing/trustworthy community data|How can we build systems that are committed to fostering trust in data when, so often, facts don't change people's minds?]]
+2. [[writing/sustainability|How can I make meaningful impacts to address climate change even when I feel like a novice or otherwise powerless? How can I work towards creating systemic change in increasingly bigger circles?]]
+3. [[writing/caring for the soul|How do I care for my soul within a culture that makes this so easy to forget?]]
+4. [[writing/striving|How do I fully embrace being "good enough" while still striving to be better? How do I continue striving in the face of resistance without becoming jaded?]]
+5. [[writing/parenthood|How can I be a mother that I am proud of while recognizing that I am many other things too?]]
+6. [[writing/teaching and learning|How can I teach in a way that reaches every student without burning out and while being true to who I am?]]
+7. [[writing/teaching and learning|How can we create new models of education that are fun and cultivate a better world while working within traditional education systems that make this work challenging?]]
+8. [[writing/romantic relationships|How can I cultivate a lasting, loving relationship with my partner while gracefully navigating the lifelong process of learning who we each are?]]
+9. [[writing/meaningful work|How can I keep working toward making the impact that I want without losing heart or constantly second-guessing myself?]]
+10. [[writing/centering beauty|How can I center the search for and creation of beauty in my life when it's so easy to fall into routines where beauty is unseen?]]
+11. [[writing/community collaboration|How can we keep building new ways to encourage healthy collaboration between groups despite numerous barriers?]]
+12. [[writing/cultures of giving|How can we create cultures where giving and helping are the norms when so many times, the prevailing norm is that of survival?]]
+13. [[writing/trustworthy community data|How can we build systems that are committed to fostering trust in data when, so often, facts don't change people's minds?]]
 
 # Evolution
 

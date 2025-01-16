@@ -207,3 +207,8 @@ Then I added the following to `quartz/styles/custom.scss`:
 
 - [Setting up a Google domain for GitHub pages](https://dev.to/trentyang/how-to-setup-google-domain-for-github-pages-1p58)
 - [Setting up a custom domain for GitHub pages](https://quartz.jzhao.xyz/hosting#custom-domain)
+
+# Flexible grid for Library page
+
+- [CSS Tricks: Flexible Grids](https://css-tricks.com/books/greatest-css-tricks/flexible-grids/)
+

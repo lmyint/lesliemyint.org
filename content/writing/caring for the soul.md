@@ -1,5 +1,5 @@
 ---
-title: caring for the soul
+title: Caring for the soul
 date: 2024-08-05
 lastmod: 2024-08-05
 ---

@@ -4,17 +4,15 @@ date: {{date}}
 lastmod: {{date}}
 ---
 
-# Metadata
-
-- **Full title:** 
-- **Authors:** 
-- **Year published:** 
-- **Tags:** 
+Insert tags here
 
 <center>
 <img src="COVER_IMAGE_URL" height="300">
 </center>
 
-# Highlights
+> [!tip] Main takeaways
+> 
+
+# Notes
 
 
