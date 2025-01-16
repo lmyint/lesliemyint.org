@@ -1,4 +1,4 @@
-import { formatDate, getDate } from "./Date"
+import { Date, getDate } from "./Date"
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import readingTime from "reading-time"
 import { classNames } from "../util/lang"
@@ -48,7 +48,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
       return (
         <p show-comma={options.showComma} class={classNames(displayClass, "content-meta")}>
-          {segmentsElements}
+          {segments}
         </p>
       )
     } else {
