@@ -2,6 +2,17 @@
 
 // put your custom CSS here!
 
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  text-align: center;
+}
+
+.grid > div {
+  height: 250px;
+}
+
 .slides {
   border: 2px solid var(--dark);
   padding: 5px 10px 5px 10px; /* top right bottom left */

@@ -1,10 +1,10 @@
 ---
-title: the serviceberry
+title: The Serviceberry
 date: 2025-01-16
 lastmod: 2025-01-16
+tags:
+  - sustainability
 ---
-
-#sustainability 
 
 <center>
 <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1715665759i/208840291.jpg" height="300">

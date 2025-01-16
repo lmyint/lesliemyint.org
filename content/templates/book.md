@@ -1,10 +1,11 @@
 ---
 title: "{{title}}"
-date: {{date}}
-lastmod: {{date}}
+date:
+  "{ date }": 
+lastmod:
+  "{ date }": 
+tags:
 ---
-
-Insert tags here
 
 <center>
 <img src="COVER_IMAGE_URL" height="300">

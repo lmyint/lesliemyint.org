@@ -6,17 +6,6 @@ title: Library
 .content-meta { display: none;}
 .backlinks { display: none;}
 
-.grid {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  text-align: center;
-}
-
-.grid > div {
-  height: 250px;
-}
-
 .external-icon {
   display: none;
 }
@@ -25,9 +14,9 @@ title: Library
 Books and media that illuminated me, touched my heart, or otherwise captivated me
 
 <div class="grid">
-  <div><a href="https://www.goodreads.com/book/show/46178699-scratched"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1570442250i/46178699.jpg" height="200"></a><br>↳ <a href="books/scratched">Notes</a></div></div>
-  <div><a href="https://www.goodreads.com/book/show/208840291-the-serviceberry"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1715665759i/208840291.jpg" height="200"></a><br>↳ <a href="books/good-the-serviceberry">Notes</a></div></div>
-  <div><a href="https://www.goodreads.com/book/show/35006962-why-you-will-marry-the-wrong-person"><img src="https://m.media-amazon.com/images/I/61NuOUxIOYL._AC_UF1000,1000_QL80_.jpg" height="200"></a></div>
+  <div><a href="https://www.goodreads.com/book/show/46178699-scratched"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1570442250i/46178699.jpg" height="200"></a><br>↳ <a href="books/scratched">Notes</a></div>
+  <div><a href="https://www.goodreads.com/book/show/208840291-the-serviceberry"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1715665759i/208840291.jpg" height="200"></a><br>↳ <a href="books/the-serviceberry">Notes</a></div>
+  <div><a href="https://www.goodreads.com/book/show/35006962-why-you-will-marry-the-wrong-person"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1493414437i/35006962.jpg" height="200"></a></div>
   <div><a href="https://www.goodreads.com/book/show/53231994-all-we-can-save"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1597014221i/53231994.jpg" height="200"></a></div>
   <div><a href="https://www.goodreads.com/book/show/27485.Mating_in_Captivity"><img src="https://m.media-amazon.com/images/I/61NuOUxIOYL._AC_UF1000,1000_QL80_.jpg" height="200"></a></div>
   <div><a href="https://www.goodreads.com/book/show/769016.How_to_Talk_So_Kids_Will_Listen_Listen_So_Kids_Will_Talk"><img src="https://m.media-amazon.com/images/I/518icAIS7-L._SY445_SX342_DpWeblab_.jpg" height="200"></a></div>

@@ -5,7 +5,7 @@ export default ((userOpts?: Options) => {
     return (
       <div class="navmenu">
         <p>🌷 <a href="/writing">Garden</a></p>
-        <p>📚 <a href="/Library">Library</a></p>
+        <p>📚 <a href="/library">Library</a></p>
         <p>💡 <a href="/teaching">Teaching</a></p>
         <p>🎤 <a href="/talks">Talks</a></p>
         <p>📜 <a href="/cv.pdf">CV</a></p>

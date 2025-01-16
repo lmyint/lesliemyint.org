@@ -192,6 +192,12 @@ if (options.showReadingTime) {
 }
 
 const segmentsElements = segments.map((segment) => <span class="content-meta-comp">{segment}</span>) // Added class="content-meta-comp"
+
+return (
+        <p show-comma={options.showComma} class={classNames(displayClass, "content-meta")}>
+          {segmentsElements}
+        </p>
+      )
 ```
 
 Then I added the following to `quartz/styles/custom.scss`:

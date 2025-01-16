@@ -1,10 +1,11 @@
 ---
-title: scratched
+title: Scratched
 date: 2025-01-16
 lastmod: 2025-01-16
+tags:
+  - memoir
 ---
 
-#memoir 
 
 <center>
 <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1570442250i/46178699.jpg" height="300">
