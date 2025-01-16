@@ -1,0 +1,3 @@
+A small used bookstore in the Macalester-Groveland neighborhood.
+
+January 2025: I walked to this bookstore as part of a break in my day. My first time in. I overheard the owner and a customer talking about sales. The owner wished for more traffic. "I would love to sell twice as many books at half the price." A longing for companionship and community through books. The customer prompted me into conversation. "I see you're looking at the music books." "I'm looking at everything," I said. "I just like being in non-conventional bookstores. You never know what you'll find." "I wish more people would do that - just come in and look."
