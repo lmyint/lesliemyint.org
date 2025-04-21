@@ -13,7 +13,6 @@ import { concatenateResources } from "../util/resources"
 const defaultOptions = {
   folderClickBehavior: "link",
   folderDefaultState: "collapsed",
-  folderClickBehavior: "link",
   useSavedState: true,
   mapFn: (node) => {
     return node
