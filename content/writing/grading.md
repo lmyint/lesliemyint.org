@@ -126,3 +126,9 @@ Ungrading can also be a barrier to student motivation:
 - Simply removing grades doesn't increase motivation to learn.
 - Students don't always take advantage of opportunities to revise/resubmit work.
 
+# On setting limits
+
+> While all limits are limits, not all limits have the same effect on how students act. Some limits encourage a scarcity mindset that encourages holding back and being conservative with resources, while others focus on abundance and encourage taking advantage of those same resources. Students respond differently to each.
+> David Clark, [Not all limits are the same](https://gradingforgrowth.com/p/not-all-limits-are-the-same)
+
+Having a fixed number of "tokens" per semester (which can be used for reattempts) creates a scarcity mindset if there is no way to earn them back. In contrast, having regularly scheduled chances for reassessment (e.g., one revision every other week) can create an abundance mindset: "We're in a revision week...there will be more but I might as well use this one."

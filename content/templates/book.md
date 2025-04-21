@@ -1,9 +1,7 @@
 ---
 title: "{{title}}"
-date:
-  "{ date }": 
-lastmod:
-  "{ date }": 
+date: "{{date}}"
+lastmod: "{{date}}"
 tags:
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: fostering sustainability in higher education
 date: 2025-01-15
-lastmod: 2025-01-15
+lastmod: 2025-02-18
 ---
 
 #sustainability 
@@ -94,4 +94,45 @@ Some strategies are effective:
 
 What specific **in-role** and **extra-role** actions can we advise different campus constituents to take?
 
+# Chapter 4: Finding and Hiring Sustainability Talent
 
+One huge opportunity to change culture is to bring in new people (faculty, staff, administration AND students) who are committed to and/or skilled at sustainability.
+
+- What concepts/ideas from this chapter have you thinking differently?
+- Who are the folks creating job descriptions at your institutions (HR, faculty & staff, departments, administrators)? Do they understand enough about and are they committed to sustainability to integrate sustainability into this work? Do they see how their work to bring in new people is connected to a sustainability culture?
+    - On the faculty side, individual departments have control on the hiring process, and while many departments might design the process to be equitable, additional sustainability considerations likely only get woven into the process for the Environmental Studies department.
+- Where does your institution recruit to find people who can bring sustainability into their jobs? 
+- What strategies has your school used to identify who has sustainability KSAOs (knowledge, skills, abilities, and other characteristics)?
+- Are there relationships you have, or alliances you could build, with people who have influence on crafting job descriptions?
+
+When faculty candidates come to campus, offer the opportunity for the candidates to meet employees who work on sustainability
+Track traffic on Sustainability website to understand how candidates and employees use sustainability information
+How can sustainability insert itself into the hiring process? Can we get the ear of whoever manages training for interviews? Maybe our human resources dept?
+
+# Chapter 5: Developing Current Talent
+
+Training areas related to sustainability
+- Awareness: increase awareness of institutional efforts and the why behind them
+- Attitudes:
+    - Positive attitudes towards sustainability behaviors can be enhanced with training
+    - Negative attitudes might not go away with training, but can be surfaced to think about actively through training
+    - Table 5.1 lists several attitudes and examples of training interventions. Two examples I found compelling ⭐️:
+        - Consistency: "Involve faculty and staff in discussions on how sustainability connects with what they care about. Ask faculty to create a class activity that links sustainability concepts with 'Big Ideas' in their field."
+        - Intrinsic motivation: "Show how sustainability can be fun and fulfilling; create a sense of belonging, autonomy, and competence. Create a community by inviting faculty, staff, and students to contribute to the creation of a rooftop garden. This also creates a sense of purpose if the produce is donated to students in need"
+- Literacy: developing understanding of our social and environmental realities
+    > Rather than using valuable training time to go in depth on specific environmental problems that quickly become obsolete (such as current CO2 levels), employees should learn some basic ecological principles: system interdependence, limits to regeneration, circularity, the importance of diversity for resilience, and a focus on upstream solutions
+    - Table 5.2 lists activities for teaching each ecological theme ⭐️
+
+Who needs training?
+- People who are already sustainably-oriented might not benefit from training but would benefit from encouragement or invitation to broaden their impact
+- Understand who is not open to training
+
+Another critical opportunity to shift culture is equipping current institutional members with KSAOs to address their work sustainably.
+
+- What concepts/ideas from this chapter have you thinking differently?
+- From a culture perspective, orientation helps people understand "how we do things around here," highlighting the most important values & norms. Has sustainability been built into faculty, staff, AND student orientations?
+- What pre-existing professional development opportunities have/could you plug sustainability into?
+- Given your institution's values, what model(s) of sustainability literacy make the most sense to engage people at your institution in order to build a shared sustainability competency?
+- Can you think of opportunities to bring some sustainability into one of your institution's orientation programs (for staff, faculty, and/or students)
+
+How do we get people toward confident competence? This is the largest source of impact in training

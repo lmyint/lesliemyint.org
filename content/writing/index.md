@@ -1,7 +1,7 @@
 ---
-title: "Garden"
+title: Garden
 date: 2022-12-07
-lastmod: 2024-05-24
+lastmod: 2025-01-22
 ---
 
 <img class="image-banner" src="https://images.unsplash.com/photo-1611843467160-25afb8df1074">
@@ -17,7 +17,9 @@ By writing, I gently tuck my ideas into the earth as seeds so that roots can tak
 
 The best way to explore the garden is to take a look at my [[writing/favorite problems|favorite problems]]. My favorite problems are a set of the biggest questions on my mind and serve as a bird's eye view of my writing. You'll find links to specific topics on that page.
 
-If you want to peek into my messy stream of consciousness, take a look at my [[writing/daily seeds|daily seeds]].
+<hr>
+
+For a couple months I experimented with daily public journaling but have since abandoned that for more curated gardening. If you want to take a look at those notes, see my [[writing/daily seeds|daily seeds]].
 
 <style>
 .page-listing {display: none;}

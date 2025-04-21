@@ -15,6 +15,8 @@ I teach statistics and data science at Macalester College with [awesome mathemat
 On my mind right now:
 
 - Doing meaningful work on climate change and sustainability. For an inspiring read, I recommend 📖 [All We Can Save](https://www.allwecansave.earth/anthology).
+    - Working to shut down the Hennepin Energy Recovery Center (HERC) incinerator with the [Zero Burn Coalition](https://linktr.ee/zeroburn) of the [MN Environmental Justice Table](https://www.mnejtable.org/)
+    - [[writing/doughnut economics|Doughnut economics]]
 - Bringing meaningful work that I do out of the classroom into my classrooms
 - [[writing/favorite problems|My favorite problems]]
 

@@ -1,7 +1,7 @@
 ---
 title: Teaching and learning
 date: 2022-12-07
-lastmod: 2024-08-09
+lastmod: 2025-01-23
 ---
 
 > **How can I teach in a way that reaches every student without burning out and while being true to who I am?**
@@ -65,10 +65,32 @@ Older (from when I was a graduate student):
 > I remembered when I used to get anxious walking patients back to my office. Am I walking too fast? Am I swinging my hips? Does my ass look funny? It seems so long ago now. I admit I’m a battle-hardened version of my former self, more stoic, possibly more indifferent. Was I a better doctor then, when I knew less and felt more?
 > *Dopamine Nation*, Anna Lembke
 
-Caring too much can lead to indifference. Is indifference (in some degree) better?
+Caring too much can lead to indifference. Is indifference (in some degree) better--for the teacher, the student?
+
+# What should the goal of education be?
+
+William Cronon's 10 goals in the essay [Only Connect: The Goals of a Liberal Education](https://www.grinnell.edu/sites/default/files/documents/Cronon_Only_Connect.pdf) resonated with me:
+
+1. They listen, and they hear.
+2. They read, and they understand.
+3. They can talk with anyone.
+4. They can write clearly, persuasively, and movingly.
+5. They can solve a wide variety of puzzles and problems.
+6. They respect rigor not so much for its own sake but as a way of seeking truth.
+7. They practice humility, tolerance, and self-criticism.
+8. They understand how to get things done in the world.
+9. They nurture and empower the people around them.
+10. They follow E. M. Forster's injunction from *Howards End*: "Only connect..."
+
+HT@ Macalester's Curriculum Implementation Committee for sharing the essay
+
+# Group work
+
+Facilitating good group work experiences in project settings is a challenge. [This newsletter](https://www.chronicle.com/newsletter/teaching/2025-01-23) referenced a useful resource that provides an activity for teams of students to do as they begin group work to provide vocabulary for the challenges of working in a group (e.g., domination, ghosting, freeloading, and groupthink) and ideas on how to address these challenges. An instructor guide to that resource is also presented.
+
 # Books
 
-- [[books/the book of why|The Book of Why]]
+- [[books/the courage to teach|The Courage to Teach]]
 
 # Fun with R
 

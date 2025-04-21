@@ -1,7 +1,7 @@
 ---
 title: Sustainability
 date: 2025-01-15
-lastmod: 2025-01-15
+lastmod: 2025-04-03
 ---
 
 # Recycling is real!
@@ -10,6 +10,8 @@ A lot of press highlights a few examples of how contamination leads to recycling
 # Minnesota's waste management hierarchy
 
 ![](https://www.pca.state.mn.us/sites/default/files/styles/sidebar_page_full_width_896w/public/mn-waste-management-hierarchy_1.png?itok=1mpXLkqD)
+
+**I never paid much attention to the right side of the hierarchy, but after working with the Zero Burn Coalition, I noticed that waste to energy (incinerators!) is above landfills. Incinerators should NOT be preferred to landfills.**
 
 Source reduction and reuse: Preventing waste before it gets created through the design, manufacture, purchasing, or use of items
 - Examples at the industry level:
@@ -159,7 +161,32 @@ How does composting work? Stages of decomposition:
     - Happens at cool temperatures again
     - Done by actinomycetes and fungi
 
+# Fiber recycling from textiles
+
+On a tour of the Goodwill St. Paul outlet and distribution center on April 10, 2025, Alan Hurd (Manager of Donation Services) told our group about new technology that is able to break down textiles into their component fibers. It's currently too expensive to use at scale, but it could revolutionize sustainability efforts related to the textile industry.
+
+> Aksay Sethi and Moby Ahmed founded Los Angeles-based Ambercycle in 2015 as they developed a breakthrough technology using a biological recycling process that enables the molecular separation of different fibers, such as cotton and polyester. This process, known as Ambercycling, produces regenerated materials from post-consumer waste that has been separated and purified at the molecular level. In their process, a whole T-shirt goes into a reactor, and using their patented process, polyester is recovered and reformed into a yarn. These newly regenerated materials can then be made into fabrics for new garments. This not only reduces garments from going into landfills but also reduces the need to use new resources. Ambercycle introduced Cycora® which has been designed to serve as a direct replacement for polyester used in apparel. Cycora is a closed-loop circular yarn created using regenerated textile waste. Ambercycle also collaborated with Avery Dennison to create a unique, scannable QR code label, which allows for full traceability, transparency, and authenticity.
+> Source: [Fiber-to-Fiber Textile Recycling](https://www.textileworld.com/textile-world/features/2023/09/fiber-to-fiber-textile-recycling/)
+
+Other sources:
+- https://www.weforum.org/stories/2024/02/technology-recycle-mixed-fabric-elastane/
+- https://phys.org/news/2024-07-chemical-textile-fibers-easier-recycling.html
+- https://www.technologyreview.com/2024/07/03/1094668/polyester-clothing-recycling/
+- https://textileexchange.org/textile-to-textile-recycling-supercircle/
+- https://looptworks.com/fiber-to-fiber/
+- 
+
+# Sustainability Data Hubs
+
+- USC built one in collaboration with their Spatial Sciences Institute: https://sustainabilitydata.usc.edu/
+
 # Other resources
 
 - 📖 [[books/fostering sustainability in higher education|Fostering Sustainability in Higher Education]]
 - 📖 [[books/the serviceberry|The Serviceberry]]
+- [This is Planet Ed](https://www.thisisplaneted.org/)
+- [Environmental organizations in Minnesota](https://eco-usa.net/orgs/mn.html) (and across the US)
+- [The All We Can Save Project](https://www.allwecansave.earth/)
+- [US Green Building Council](https://www.usgbc.org/)
+- [USC's Student Sustainability Training](https://sustainability.usc.edu/student-sustainability-training/)
+- [Introduction to Sustainability OER textbook](https://openbooks.macewan.ca/introductiontosustainability/)

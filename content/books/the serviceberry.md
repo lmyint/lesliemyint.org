@@ -43,7 +43,7 @@ tags:
 
 - *A Paradise Built in Hell* by Rebecca Solnit
 - *Sacred Economics* by Charles Eisenstein
-- Kate Raworth's concept of "Doughnut Economics"
+- [[writing/doughnut economics|Kate Raworth's concept of "Doughnut Economics"]]
 - Katherine Collins work on designing investment strategies that enable a circular economy
 
 
