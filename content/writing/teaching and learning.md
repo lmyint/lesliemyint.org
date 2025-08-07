@@ -88,6 +88,15 @@ HT@ Macalester's Curriculum Implementation Committee for sharing the essay
 
 Facilitating good group work experiences in project settings is a challenge. [This newsletter](https://www.chronicle.com/newsletter/teaching/2025-01-23) referenced a useful resource that provides an activity for teams of students to do as they begin group work to provide vocabulary for the challenges of working in a group (e.g., domination, ghosting, freeloading, and groupthink) and ideas on how to address these challenges. An instructor guide to that resource is also presented.
 
+# Teaching and AI
+
+From Erik Hoel's May 2025 [post](https://www.theintrinsicperspective.com/p/the-joy-of-blackouts-ai-ruins-college):
+
+> In other words, grading needs to transition to “showing your work,” and that includes essay writing. Real serious pedagogy must become _entirely about the process._ Tracking the impact of education by grading outputs is no longer a thing, ever again. It was a good 3,000 year run. We had fun. It’s over. Stop grading essays, and start grading the creation of the essay. Same goes for everything else...
+
+The idea of focusing only on process is compelling. Because the idea of focusing on process is important for mindfully moving through the journey of life---something I have come to appreciate more as my daughter grows older and I think about the trajectory of my parenting and as I continue making progress on meaningful work during my sabbatical.
+
+And yet, the cynic in me is wary. Students can and would use AI to work on the process of a project if they don't find it meaningful, interesting, useful, or relevant. For example, asking students to brainstorm ideas for a topic is absolutely something AI could do easily. **Designing the right activities to engage with the process is essential.** The activities need to be engaging, ones that they would be curious to try out.
 # Books
 
 - [[books/the courage to teach|The Courage to Teach]]

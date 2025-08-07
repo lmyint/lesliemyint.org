@@ -174,19 +174,42 @@ Other sources:
 - https://www.technologyreview.com/2024/07/03/1094668/polyester-clothing-recycling/
 - https://textileexchange.org/textile-to-textile-recycling-supercircle/
 - https://looptworks.com/fiber-to-fiber/
-- 
+
+# Beyond Plastics: Grassroots Advocacy Training
+
+Ethane cracking facilities--result = plastic nurdles (small bead-sized pellets). These nurdles often spill off trains and end up in soil.
+
+Why are there so many plastics? Fossil fuel industry decided that plastics production is their Plan B after the world started moving away from fossil fuels and towards renewable energy (https://www.beyondplastics.org/publications/the-new-coal)
+
+Only 6% of plastics get recycled because of colors and types of chemicals in the plastics. The plastics industry tried to push chemical recycling but it doesn't work--there's a Beyond Plastics report on this.
+
+https://www.beyondplastics.org/act
 
 # Sustainability Data Hubs
 
 - USC built one in collaboration with their Spatial Sciences Institute: https://sustainabilitydata.usc.edu/
 
+# Teaching sustainability
+
+Datasets:
+- Open-access educational resource: Data Analysis in R to Gain Insights for Conservation: Examples from Long-Term Ecological Research (from the Network of Conservation Educators and Practitioners (NCEP) at the American Museum of Natural History): https://doi.org/10.5531/cbc.ncep.0189
+- United Nations Sustainable Development Goals Data Explorer
+    - https://uninfo.org/data-explorer
+    - https://dashboards.sdgindex.org/explorer
+    - [Upstream's Policy Tracker](https://docs.google.com/spreadsheets/d/1dVYkjRFhYoza1qGkPDphpnaZS-_JfjD9R-saNEUH8zQ/edit?usp=sharing)
+        - Cases: policies
+        - Variables: binary features of policies (e.g., Accessories on Request, Cup/Container Charge, Reuse at Events and/or Venues)
+
 # Other resources
 
 - 📖 [[books/fostering sustainability in higher education|Fostering Sustainability in Higher Education]]
 - 📖 [[books/the serviceberry|The Serviceberry]]
+- 📚 [Beyond Plastics: Reading List](https://www.beyondplastics.org/book-club)
 - [This is Planet Ed](https://www.thisisplaneted.org/)
 - [Environmental organizations in Minnesota](https://eco-usa.net/orgs/mn.html) (and across the US)
 - [The All We Can Save Project](https://www.allwecansave.earth/)
 - [US Green Building Council](https://www.usgbc.org/)
 - [USC's Student Sustainability Training](https://sustainability.usc.edu/student-sustainability-training/)
 - [Introduction to Sustainability OER textbook](https://openbooks.macewan.ca/introductiontosustainability/)
+- [For College Students, It’s Summer Vacation. For Scavengers, It’s Christmas.](https://www.nytimes.com/2025/06/07/business/college-scavengers-dumpster-diving.html) (NYT article about dumpster diving after college move-out)
+- [Why I live a zero waste life | Lauren Singer | Ted Talks Teen](https://www.youtube.com/watch?v=pF72px2R3Hg)

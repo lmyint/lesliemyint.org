@@ -10,7 +10,7 @@ I teach the following courses at Macalester. Some of my courses have course webs
     - [{S24}](https://lmyint.github.io/125_spring_2024/)
 - STAT 155: Introduction to Statistical Modeling
     - [Class notes](https://mac-stat.github.io/Stat155Notes/) in collaboration with [Brianna Heggeseth](https://bcheggeseth.github.io/) and [Kelsey Grinde](https://kegrinde.github.io)
-    - [{S20}](https://lmyint.github.io/155_spring_2020/), [{F24}](https://lmyint.github.io/causal_fall_2024/)
+    - [{S20}](https://lmyint.github.io/155_spring_2020/), [{F24}](https://lmyint.github.io/155_fall_2024/)
 - STAT/COMP 212: Intermediate Data Science
 	- [Class notes](https://lmyint.github.io/IntermediateDataSciNotes/)
 	- [{F23}](https://lmyint.github.io/212_fall_2023/), [{S24}](https://lmyint.github.io/212_spring_2024/)
