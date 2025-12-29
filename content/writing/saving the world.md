@@ -1,7 +1,7 @@
 ---
-title: "Saving the world"
+title: Saving the world
 date: 2024-07-10
-lastmod: 2024-07-16
+lastmod: 2025-09-04
 ---
 
 Saving the world has been on my mind a lot recently. Whenever the feelings surrounding this aspiration are strongest, I'm picturing my daughter. As the toddler she is now, reveling in the joy of bubble wands and Play-Doh. As an adolescent, with uncertainty about the future. With hope too? As an adult, thinking about the trajectory of her life both behind and ahead of her. As a mother? As a partner? What will her worries be when she gets older? What will she value and think of the world? Will she have on her mind as much as I do whether the world will be there for her and her children?
@@ -29,3 +29,6 @@ But how can we be in community with each other as we work to save the world in o
 - Changing minds and sharing insight ([[writing/daily/2024-06-16|2024-06-16]], [[writing/daily/2024-06-18|2024-06-18]])
 - Taking action ([[writing/daily/2024-06-20|2024-06-20]])
 
+---
+
+September 4, 2025: I read the beautiful essay [What We Can All Learn from Disability Culture](https://poojalakshmin.substack.com/p/what-we-can-all-learn-from-disability) by Madysen Luebke via the Real Self Care Substack. What Madysen describes of **disability culture** made me think of caring for the world as a way to save the world. Disability culture centers judgment-free care, creatively using what is there, reliance on community, seeing the world with curiosity and a problem-solving mindset. It was touching the way she described being proud to have a disabled parent and reclaiming the identify of "child of a disabled parent" after her mother's death.

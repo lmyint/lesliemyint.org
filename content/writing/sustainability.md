@@ -29,6 +29,10 @@ Source reduction and reuse: Preventing waste before it gets created through the 
 - MRF = materials recovery facility. Where recycling materials get processed
 - At Eureka Recycling in NE Minneapolis employees (many of whom manually sort items on the conveyor belt) earn 
     - #learn-more Is there data on how common this is?
+- Cleaning recyclables
+    - Cleanliness doesn't matter too much especially for containers
+    - Does help with smell and cleanliness of the facility which is always a plus for the workers
+    - Don't put small plastic bottles in larger plastic containers. Because plastic is sorted with air, this practice can make the containers too heavy to be sorted correctly.
 - Cities often have many different haulers because different haulers may better meet the needs of different areas
 - How to read recycling labels:
 ![](https://i2.wp.com/blog.blueapron.com/wp-content/uploads/2020/04/EarthDay_ReadingLabels_v3.jpg?fit=1024%2C771&ssl=1)
@@ -49,7 +53,8 @@ Source reduction and reuse: Preventing waste before it gets created through the 
     - Keep tabs and lids on (because the small tabs and lids, if separated, are too small to be picked up by machinery and may end up on the floor as litter)
     - Do not crush/flatten (air is used to puff the cans off the conveyor belt, and this won't work well if they're crushed)
     - If can has vinyl shrink wrapping (like from craft beers), best is to cut off that wrapping and trash it. (Even though it can be burned off, it can result in impurities lingering on the metal.)
-
+- Should aluminum foil be recycled flat or balled up with other foils?
+    - It is best to crunch it up into a ball- at least the size of a baseball - so it can be sorted with the 3D containers (if it is flat it acts like paper)
 ## Glass
 
 - Can recycle clear, brown, and green glass
@@ -200,6 +205,14 @@ Datasets:
         - Cases: policies
         - Variables: binary features of policies (e.g., Accessories on Request, Cup/Container Charge, Reuse at Events and/or Venues)
 
+# Why climate?
+
+Quotes and stories that resonated with me about why people care about fighting climate change
+
+From the "Why climate?" section of the 12/18/25 Project Drawdown newsletter:
+
+> Climate change has already impacted me, personally, and probably you too. The Ottawa canal that I used to commute to work on in my teens didn’t open in 2023 due to warm weather. I can no longer go for long runs for part of the summer because the temperature is just too hot, even in the early morning. Polar vortexes, extreme heat events, and derecho storms were not part of my vocabulary a few decades ago, but they are now. Food prices are rising, homes are becoming uninsurable, and I now keep an emergency survival kit ready to go in my basement. I am resilient, and I can adapt, but what will my children face when they are my age? What about my grandchildren? I want the very best for my family, and that is why I have chosen to dedicate my career to advancing solutions that cut climate pollution and improve the likelihood of a stable and livable climate future.
+> **_— Heather M.,_** _Kitchener, Ontario, Canada_
 # Other resources
 
 - 📖 [[books/fostering sustainability in higher education|Fostering Sustainability in Higher Education]]
@@ -213,3 +226,4 @@ Datasets:
 - [Introduction to Sustainability OER textbook](https://openbooks.macewan.ca/introductiontosustainability/)
 - [For College Students, It’s Summer Vacation. For Scavengers, It’s Christmas.](https://www.nytimes.com/2025/06/07/business/college-scavengers-dumpster-diving.html) (NYT article about dumpster diving after college move-out)
 - [Why I live a zero waste life | Lauren Singer | Ted Talks Teen](https://www.youtube.com/watch?v=pF72px2R3Hg)
+- [Research anthology: engaging employees in sustainability efforts](https://docs.google.com/document/d/1a2ah5Nk256nZ3dcPH0-g6bcJ2GxODDFVOg_IrYnslic/edit?usp=sharing)

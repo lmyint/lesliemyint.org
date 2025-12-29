@@ -1,7 +1,9 @@
 ---
-title: "Good Inside"
+title: Good Inside
 date: 2024-06-03
 lastmod: 2024-06-03
+tags:
+  - parenting
 ---
 
 # Metadata

@@ -1,7 +1,9 @@
 ---
-title: "The Courage to Teach"
+title: The Courage to Teach
 date: 2024-06-03
 lastmod: 2024-08-08
+tags:
+  - teaching-learning
 ---
 
 # Metadata

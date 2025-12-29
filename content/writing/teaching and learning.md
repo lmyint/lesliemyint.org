@@ -1,7 +1,9 @@
 ---
 title: Teaching and learning
 date: 2022-12-07
-lastmod: 2025-01-23
+lastmod: 2025-12-28
+tags:
+  - teaching-learning
 ---
 
 > **How can I teach in a way that reaches every student without burning out and while being true to who I am?**
@@ -97,9 +99,23 @@ From Erik Hoel's May 2025 [post](https://www.theintrinsicperspective.com/p/the-j
 The idea of focusing only on process is compelling. Because the idea of focusing on process is important for mindfully moving through the journey of life---something I have come to appreciate more as my daughter grows older and I think about the trajectory of my parenting and as I continue making progress on meaningful work during my sabbatical.
 
 And yet, the cynic in me is wary. Students can and would use AI to work on the process of a project if they don't find it meaningful, interesting, useful, or relevant. For example, asking students to brainstorm ideas for a topic is absolutely something AI could do easily. **Designing the right activities to engage with the process is essential.** The activities need to be engaging, ones that they would be curious to try out.
+
+[This NYT editorial](https://www.nytimes.com/2025/08/26/opinion/culture/ai-chatgpt-college-cheating-medieval.html) is a great discussion of the evolution of adaptation to AI on the instructor end and how it has prompted a return to older forms of assessment: blue books (which are quite foreign to a generation that grew up with typing) and conversations (which have the potential to develop the relationships that are beautiful about an in-person college experience).
+
+# Designing for student engagement
+
+[This post](https://theconversationstarter.substack.com/p/built-a-course-without-a-culture) has a great idea for cultivating a culture of engagement and support among the students in a cohort. Students can't only be students. They need a second role. A role related to cultivating a community in the classroom.
+
+# Learning how to learn
+
+From *Teach Students How to Learn* by Saundra Yancy McGuire:
+
+> A first-year dental school student described the difference this way: "Studying is focusing on the 'whats,' but learning is focusing on the 'hows,' 'whys,' and 'what ifs.'” I am particularly fond of this last response. The student who gave it went on to elaborate, “I find that when I focus on the 'whats,' if I forget them I can't recreate the information. But when I focus on the 'hows,' 'whys,' and 'what ifs,' even if I forget the 'whats,' I can recreate them."
+
 # Books
 
 - [[books/the courage to teach|The Courage to Teach]]
+- [[books/coaching habit|The Coaching Habit]]
 
 # Fun with R
 

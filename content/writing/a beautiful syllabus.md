@@ -1,7 +1,7 @@
 ---
-title: "A beautiful syllabus"
+title: A beautiful syllabus
 date: 2022-12-09
-lastmod: 2022-12-09
+lastmod: 2025-08-11
 ---
 
 Like a well-crafted "Start Here" or "About" page on a personal website, a *beautiful syllabus* has the potential to set the tone for a course and spark kinship between students and instructors. This page is a [psych box](https://www.pinterest.com/alyssa2365/psych-box-ideas/) for bottling inspiration, raw emotion, and connection in this regard. Each section below is a draft of a section that I might include on my syllabi.

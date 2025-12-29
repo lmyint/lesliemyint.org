@@ -10,13 +10,13 @@ title: "Welcome"
 
 Hi, I'm Leslie.
 
-I teach statistics and data science at Macalester College with [awesome mathematicians, computer scientists, statisticians, and data scientists](https://www.macalester.edu/mscs/) as colleagues.
+I teach statistics and data science at Macalester College with [awesome mathematicians, computer scientists, statisticians, and data scientists](https://www.macalester.edu/mscs/) as colleagues. I am also an environmental activist passionate about zero waste, clean energy, transportation, and the justice issues that touch these areas.
 
 On my mind right now:
 
+- Shutting down the Hennepin Energy Recovery Center (HERC), a trash incinerator in North Minneapolis, with the [Zero Burn Coalition](https://linktr.ee/zeroburn)
 - Doing meaningful work on climate change and sustainability. For an inspiring read, I recommend 📖 [All We Can Save](https://www.allwecansave.earth/anthology).
-    - Working to shut down the Hennepin Energy Recovery Center (HERC) incinerator with the [Zero Burn Coalition](https://linktr.ee/zeroburn) of the [MN Environmental Justice Table](https://www.mnejtable.org/)
-    - [[writing/doughnut economics|Doughnut economics]]
+- Degrowth/post-growth cultures
 - Bringing meaningful work that I do out of the classroom into my classrooms
 - [[writing/favorite problems|My favorite problems]]
 

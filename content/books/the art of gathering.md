@@ -3,6 +3,7 @@ title: the art of gathering
 date: 2025-03-12
 lastmod: 2025-03-14
 tags:
+  - gathering
 ---
 
 <center>
