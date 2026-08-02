@@ -1,174 +1,25 @@
 ---
 title: Sustainability
 date: 2025-01-15
-lastmod: 2025-04-03
+lastmod: 2026-08-02
 ---
+# Identity-based habits and climate activism
 
-# Recycling is real!
+> A systems-first mentality provides the antidote. When you fall in love with the process rather than the product, you don’t have to wait to give yourself permission to be happy. (James Clear, Atomic Habits)
 
-A lot of press highlights a few examples of how contamination leads to recycling being trashed, and this has led to distrust in recycling. This advocacy campaign aims to dispel those beliefs: https://recyclingexists.com/
-# Minnesota's waste management hierarchy
+This quote helped me understand why climate work fulfills me in a way that my former academic research never did. With climate work, I feel a resolve in showing up every day to do the work because it is an area where the outcome is so sharply present and yet simultaneously in the background. Every climate activist is fighting for a better world because it's the right thing to do now regardless of how it ends up turning out. I end up thinking to myself on a weekly basis, "Even if we don't make it, I would never turn away from trying every day. If Earth comes to be in a state of irreversible damage, I want to be able to say that I did everything I could." I love the *being* of a climate activist--especially when environmental justice is my focus.
 
-![](https://www.pca.state.mn.us/sites/default/files/styles/sidebar_page_full_width_896w/public/mn-waste-management-hierarchy_1.png?itok=1mpXLkqD)
+# My origin story
 
-**I never paid much attention to the right side of the hierarchy, but after working with the Zero Burn Coalition, I noticed that waste to energy (incinerators!) is above landfills. Incinerators should NOT be preferred to landfills.**
+Within the first few days of moving in to Macalester housing, I was stuffing a bunch of plastic film into my recycling bin. A man strode up to me proclaiming, "I'm a master recycler. That stuff can't go in there! It'll jam up the machines." I was flabbergasted. *Master recycler*, is that a thing? Like an official thing, and not just some title he's bestowed upon himself?
 
-Source reduction and reuse: Preventing waste before it gets created through the design, manufacture, purchasing, or use of items
-- Examples at the industry level:
-    - Creating products using recycled materials
-    - Creating products that are more durable (so that they are only bought once)
-    - Using less packaging
-- Examples at the individual level:
-    - Not taking a plastic bag
-    - Meal planning to reduce food waste
-    - Buying used instead of new products
+Fast forward 6 years. I stumbled upon an advertisement for the Ramsey County Recycling Ambassadors program. "This is it!" I thought. "This is that thing that that guy was!"
 
-# Recycling
-
-- "Closing the loop": when we recycle, we need to make sure that we are ALSO buying goods that are made from recycled materials. Otherwise recycling isn't doing anything.
-- MRF = materials recovery facility. Where recycling materials get processed
-- At Eureka Recycling in NE Minneapolis employees (many of whom manually sort items on the conveyor belt) earn 
-    - #learn-more Is there data on how common this is?
-- Cleaning recyclables
-    - Cleanliness doesn't matter too much especially for containers
-    - Does help with smell and cleanliness of the facility which is always a plus for the workers
-    - Don't put small plastic bottles in larger plastic containers. Because plastic is sorted with air, this practice can make the containers too heavy to be sorted correctly.
-- Cities often have many different haulers because different haulers may better meet the needs of different areas
-- How to read recycling labels:
-![](https://i2.wp.com/blog.blueapron.com/wp-content/uploads/2020/04/EarthDay_ReadingLabels_v3.jpg?fit=1024%2C771&ssl=1)
-[Source](https://blog.blueapron.com/how-to-recycle-earth-911/)
-
-- Importantly, if the [how2recycle.info](https://how2recycle.info/) label is not present, but a green looped arrow is present, the product may be greenwashed.
-
-## Metal
-
-- Aluminum and steel can be recycled curbside
-- How it gets recycled:
-    - Paper labels get shredded off
-    - Melted
-    - Rolled into huge sheets
-- Aluminum and steel are infinitely recycled because they don't lose any properties when melted
-- How to recycle:
-    - Empty and rinse
-    - Keep tabs and lids on (because the small tabs and lids, if separated, are too small to be picked up by machinery and may end up on the floor as litter)
-    - Do not crush/flatten (air is used to puff the cans off the conveyor belt, and this won't work well if they're crushed)
-    - If can has vinyl shrink wrapping (like from craft beers), best is to cut off that wrapping and trash it. (Even though it can be burned off, it can result in impurities lingering on the metal.)
-- Should aluminum foil be recycled flat or balled up with other foils?
-    - It is best to crunch it up into a ball- at least the size of a baseball - so it can be sorted with the 3D containers (if it is flat it acts like paper)
-## Glass
-
-- Can recycle clear, brown, and green glass
-- How it gets recycled:
-    - Contamination is removed using magnets and heat
-    - Crushed into pellets and sorted by color using an optical scanner
-    - Melted and molded into new products
-- How to recycle:
-    - Empty and rinse
-    - Remove plastic caps, pumps, and spray tops -> put in trash
-- Not all glass can be recycled
-    - e.g., Pyrex, mirrors, drinking glasses, ceramics, windows have different melting points than glass jars for food
-
-## Paper
-
-- How it gets recycled:
-    - Paper gets mixed with water to create pulp
-    - Chemicals and soaps can remove the ink
-    - Machines remove water, flatten, and dry the pulp
-    - Dry pulp is rolled into large rolls
-- How to recycle:
-    - Remove plastic and tape
-    - Flatten and keep dry
-- Paper can only be recycled about 4-7 times because the recycling process shortens the fibers in the paper
-- Don't put in cart:
-    - Shredded paper - can't be sorted by machinery
-    - Wax-coated frozen food boxes
-    - Tissue paper (too thin)
-    - Wrapping paper (contains foil and glitter)
-    - To go coffee cups
-
-## Paper cartons
-
-- There are 2 types of cartons:
-![Refrigerated carton](https://www.recyclecartons.ca/wp-content/uploads/2019/07/Refrigerated-Carton-Diagram.jpg)
-![Shelf-stable carton](https://www.recyclecartons.ca/wp-content/uploads/2019/07/Shelf-Stable-Carton-Diagram.jpg)
-
-- How to recycle:
-    - Empty and rinse
-    - Do not flatten
-    - Leave caps on
-- Paper egg cartons often contain fibers that are too short to be recycled - these can be composted though
-## Plastics
-
-- How it gets recycled:
-    - Washed to remove labels
-    - Sorted by type
-    - Ground into flakes
-    - Flakes are sorted by color and melted into pellets
-- Black plastic can't be recycled because the optical sorter can't detect plastic of that color. Black plastic also doesn't have a great end market because it can't be turned into other colors.
-- Don't recycle plastic bags because they jam recycling equipment
-
-## Recycling markets and end producer responsibility
-
-- We're working toward a circular rather than a linear economy
-- Wish-cycling negatively impacts the recycling market
-    - Shuts down facilities
-    - Increases costs to recycle
-    - Triggers penalties to recyclers and cities
-    - Harder to sell and decreases market value
-- #learn-more What legislation incentives are there for companies to use recycled feedstocks instead of new feedstocks? I'm curious about the financial incentives
-- #learn-more Packaging Waste and Cost Reduction of Act of 2024
-    - Requires packaging to be reusable, recyclable, compostable by 2032
-
-# Trash
-
-Trash in Ramsey and Washington Counties is taken to the [Recycling and Energy Center](https://recyclingandenergy.org/)
-
-The MN Waste Management Act mandates that counties need to meet certain standards.
-
-The R&E center tries to sort through trash to divert as much as possible from landfills. What's in our trash? (2022 data)
-
-- Organics: 33%
-- Paper: 20%
-- Plastic: 16%
-
-In the future R&E is trying to pivot so that what gets put in trash can be recovered as resources:
-
-- Food Scraps Pickup Program
-- Recyclables Recovery System
-    - #1 and #2 plastics
-    - Cardboard
-    - Organic-rich material
-- Anaerobic digestion #learn-more
-
-# Food and yard waste
-
-Compost is soil made of:
-
-- Soil particles (sand, silt, clay): 45%
-- Water: 25%
-- Oxygen: 20%
-- Carbon dioxide: 5%
-- Organic matter: 5%
-    - The living (living plant roots and soil organisms): 15%
-    - The dead (dead and decomposing plant roots and soil organisms): 15%
-    - The very dead (fully decomposed plant roots and soil organisms): 70%
-
-How does composting work? Stages of decomposition:
-
-1. Mesophilic
-    - Happens at cool temperatures
-    - Done by insects and bacteria
-    - Breaks down easily available materials
-2. Thermophilic
-    - Happens at hot temperatures
-    - Done by heat-tolerant microorganisms
-3. Curing
-    - Happens at cool temperatures again
-    - Done by actinomycetes and fungi
+(To be continued!)
 
 # Fiber recycling from textiles
 
-On a tour of the Goodwill St. Paul outlet and distribution center on April 10, 2025, Alan Hurd (Manager of Donation Services) told our group about new technology that is able to break down textiles into their component fibers. It's currently too expensive to use at scale, but it could revolutionize sustainability efforts related to the textile industry.
+On a tour of the Goodwill St. Paul outlet and distribution center on April 10, 2025, Alan Hurd (Manager of Donation Services) told our group about new technology that is able to break down textiles into their component fibers. It's currently too expensive to use at scale, but it could revolutionize sustainability efforts related to the textile industry. #learn-more Is fiber recycling like chemical recycling of plastics? If so, it would create substantial amounts of pollution and is a false solution.
 
 > Aksay Sethi and Moby Ahmed founded Los Angeles-based Ambercycle in 2015 as they developed a breakthrough technology using a biological recycling process that enables the molecular separation of different fibers, such as cotton and polyester. This process, known as Ambercycling, produces regenerated materials from post-consumer waste that has been separated and purified at the molecular level. In their process, a whole T-shirt goes into a reactor, and using their patented process, polyester is recovered and reformed into a yarn. These newly regenerated materials can then be made into fabrics for new garments. This not only reduces garments from going into landfills but also reduces the need to use new resources. Ambercycle introduced Cycora® which has been designed to serve as a direct replacement for polyester used in apparel. Cycora is a closed-loop circular yarn created using regenerated textile waste. Ambercycle also collaborated with Avery Dennison to create a unique, scannable QR code label, which allows for full traceability, transparency, and authenticity.
 > Source: [Fiber-to-Fiber Textile Recycling](https://www.textileworld.com/textile-world/features/2023/09/fiber-to-fiber-textile-recycling/)
