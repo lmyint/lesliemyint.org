@@ -14,7 +14,7 @@ title: Library
 Books and media that illuminated me, touched my heart, or otherwise captivated me
 
 <div class="grid">
-  <div><a href="https://www.ucpress.edu/books/where-cloud-is-ground/paper"><img src="https://www.ucpress.edu/_next/image?url=https%3A%2F%2Fwebfiles.ucpress.edu%2Fcoverimage%2Fisbn13%2F9780520396364.jpg" height="200"></a></div>
+  <div><a href="https://www.ucpress.edu/books/where-cloud-is-ground/paper"><img src="https://www.ucpress.edu/_next/image?url=https%3A%2F%2Fwebfiles.ucpress.edu%2Fcoverimage%2Fisbn13%2F9780520396364.jpg&w=640&q=90" height="200"></a></div>
   <div><a href="https://bookshop.org/p/books/the-culture-code-the-secrets-of-highly-successful-groups-daniel-coyle/ff4d0e4ebe3600de"><img src="https://images-us.bookshop.org/ingram/9780804177009.jpg" height="200"></a></div>
   <div><a href="https://bookshop.org/p/books/the-happiness-project-tenth-anniversary-edition-or-why-i-spent-a-year-trying-to-sing-in-the-morning-clean-my-closets-fight-right-read-aristotle-gretch/8006746"><img src="https://images-us.bookshop.org/ingram/9780062888747.jpg" height="200"></a></div>
   <div><a href="https://bookshop.org/p/books/draw-your-day-an-inspiring-guide-to-keeping-a-sketch-journal-samantha-dion-baker/7278021"><img src="https://images-us.bookshop.org/ingram/9780399581298.jpg" height="200"></a></div>
