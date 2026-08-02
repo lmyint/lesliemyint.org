@@ -14,11 +14,14 @@ title: Library
 Books and media that illuminated me, touched my heart, or otherwise captivated me
 
 <div class="grid">
+  <div><a href="https://www.ucpress.edu/books/where-cloud-is-ground/paper"><img src="https://www.ucpress.edu/_next/image?url=https%3A%2F%2Fwebfiles.ucpress.edu%2Fcoverimage%2Fisbn13%2F9780520396364.jpg" height="200"></a></div>
+  <div><a href="https://bookshop.org/p/books/the-culture-code-the-secrets-of-highly-successful-groups-daniel-coyle/ff4d0e4ebe3600de"><img src="https://images-us.bookshop.org/ingram/9780804177009.jpg" height="200"></a></div>
   <div><a href="https://bookshop.org/p/books/the-happiness-project-tenth-anniversary-edition-or-why-i-spent-a-year-trying-to-sing-in-the-morning-clean-my-closets-fight-right-read-aristotle-gretch/8006746"><img src="https://images-us.bookshop.org/ingram/9780062888747.jpg" height="200"></a></div>
   <div><a href="https://bookshop.org/p/books/draw-your-day-an-inspiring-guide-to-keeping-a-sketch-journal-samantha-dion-baker/7278021"><img src="https://images-us.bookshop.org/ingram/9780399581298.jpg" height="200"></a></div>
   <div><a href="https://bookshop.org/p/books/the-art-of-gathering-how-we-meet-and-why-it-matters-priya-parker/588739"><img src="https://images-us.bookshop.org/ingram/9781594634925.jpg" height="200"></a><br>↳ <a href="books/the-art-of-gathering">Notes</a></div>
   <div><a href="https://bookshop.org/p/books/scratched-a-memoir-of-perfectionism-elizabeth-tallent/6436430"><img src="https://images-us.bookshop.org/ingram/9780062410399.jpg" height="200"></a><br>↳ <a href="books/scratched">Notes</a></div>
   <div><a href="https://bookshop.org/p/books/the-serviceberry-robin-wall-kimmerer/21259025"><img src="https://images-us.bookshop.org/ingram/9781668072240.jpg" height="200"></a><br>↳ <a href="books/the-serviceberry">Notes</a></div>
+  <div><a href="https://bookshop.org/p/books/my-own-devices-true-stories-from-the-road-on-music-science-and-senseless-love-dessa/39f15755d34b4237"><img src="https://images-us.bookshop.org/ingram/9781524742300.jpg" height="200"></a></div>
   <div><a href="https://bookshop.org/p/books/the-school-of-life-why-you-will-marry-the-wrong-person-a-pessimist-s-guide-to-marriage-offering-insight-practical-advice-and-consolation-the-school-of/9868377"><img src="https://images-us.bookshop.org/ingram/9780995573628.jpg" height="200"></a></div>
   <div><a href="https://bookshop.org/p/books/all-we-can-save-truth-courage-and-solutions-for-the-climate-crisis-ayana-elizabeth-johnson/18834354"><img src="https://images-us.bookshop.org/ingram/9780593237083.jpg" height="200"></a></div>
   <div><a href="https://bookshop.org/p/books/mating-in-captivity-unlocking-erotic-intelligence-esther-perel/7385511?ean=9780061835223&digital=t"><img src="https://images-us.bookshop.org/ingram/9780060753641.jpg" height="200"></a></div>
