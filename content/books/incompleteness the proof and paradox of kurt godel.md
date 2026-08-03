@@ -1,5 +1,5 @@
 ---
-title: incompleteness the proof and paradox of kurt godel
+title: "Incompleteness: The Proof and Paradox of Kurt Godel"
 date: 2025-01-09
 lastmod: 2025-01-09
 ---

@@ -1,5 +1,5 @@
 ---
-title: the art of gathering
+title: The Art of Gathering
 date: 2025-03-12
 lastmod: 2025-03-14
 tags:

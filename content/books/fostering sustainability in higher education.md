@@ -1,5 +1,5 @@
 ---
-title: fostering sustainability in higher education
+title: Fostering Sustainability in Higher Education
 date: 2025-01-15
 lastmod: 2025-02-18
 ---
